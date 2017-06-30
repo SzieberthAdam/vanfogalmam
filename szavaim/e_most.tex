@@ -1,5 +1,27 @@
 \startenvironment e_szotaram
 
+% https://tex.stackexchange.com/a/43411/50554
+% https://www.gammon.com.au/scripts/doc.php?lua=table.insert
+\startluacode
+  userdata = userdata or {}
+  userdata.hivatkozasgyujto_lista = {}
+  function userdata.hivatkozasgyujto_torol()
+    userdata.hivatkozasgyujto_lista = {}
+  end
+  function userdata.hivatkozasgyujto_ad(szoveg)
+    userdata.hivatkozasgyujto_lista [#userdata.hivatkozasgyujto_lista + 1] = szoveg
+  end
+  function userdata.hivatkozasgyujto_ki()
+    if next(userdata.hivatkozasgyujto_lista) ~= nil then
+      context("{\\tfx\\em(" .. table.concat(userdata.hivatkozasgyujto_lista,", ") .. ")}")
+      userdata.hivatkozasgyujto_torol()
+    end
+  end
+\stopluacode
+
+
+
+
 \definecounter[SzoBekSzam][way=bytext,prefix=no]
 \definecounter[AxiomaSzam][way=bytext,prefix=no]
 
@@ -103,6 +125,9 @@
     \fi}
 
 \unexpanded\def\stopBek{\relax}
+%\unprotect
+%\define\stopBek{\ctxlua{userdata.hivatkozasgyujto_ki()}\relax}
+%\protect
 
 
 %\unexpanded\def\startAxioma{\incrementcounter[SzoBekSzam]%
@@ -188,7 +213,11 @@
   align={outer,nothanging,nohz,hyphenated,morehyphenated},
   stack=continue,
   style=\tfx]
-\def\lasd#1{\inouter{\em #1}}
+
+%\def\lasd#1{\inouter{\em #1}}
+\unprotect
+\define[1]\lasd{\ctxlua{userdata.hivatkozasgyujto_ad(\!!bs#1\!!es)}}
+\protect
 
 \setupindenting[no]
 
