@@ -1,0 +1,87 @@
+%D \module [
+%D		file			= t-pararef, 
+%D		version		= 0.8.2
+%D		title			= \CONTEXT\ User Module,
+%D		subtitle		= Paragraph referencing,
+%D 		author		= Zenlima,
+%D		date			= 2012.11.02
+%D		copyright		= Henning Haeske,
+%D		license		= '' 
+%D ]
+
+% ToDo:
+% * Maybe integration of \startParagraph into the context \startparagraph
+% * Better integration into the ToC
+% * Style and Color of paragraph title not via margin settings
+% * Style for paragraph number
+% * Maybe rename t-pararef.tex into t-pararef.mkiv
+% * Evtl. more levels than subsubsection?
+% * Textpartdivider has a fixed size, better: via config
+
+\startmodule[pararef]
+\unprotect
+
+\setupmodule[textpartdividerColor=,paragraphNumberColor=]
+\def\textpartdividerColor{\moduleparameter{pararef}{textpartdividerColor}}
+\def\paragraphNumberColor{\moduleparameter{pararef}{paragraphNumberColor}}
+% Color of paragraph title is done via margin settings for now
+
+%D This module understands a paragraph as a full closed block of one thought. This means
+%D that inside a paragraph enumerations, formulas etc. can apear. That is why a paragraph
+%D must be defined manuelly via \type{\startParagraph} and \type{\stopParagraph}.
+%D
+%D Each paragraph gets numbered started by each title. In order to link to a paragraph 
+%D it can be reference by the optional paramter \type{reference=...} as a text reference.
+%D
+%D One or more paragraphs can be summarized by a low level title which is displayed
+%D as a margin note (margin title) via the optional paremeter \type{title=...}.
+%D
+%D \startParagraph[reference=...,title=...]
+%D \input tufte
+%D \stopParagraph
+%D
+
+\definecounter[ParagraphNumber][way=bytext,prefix=no]
+\setuphead[chapter,section,subsection,subsubsection][insidesection={\resetcounter[ParagraphNumber]}]
+
+%D Please use only the new way of defining headings. So please use instead of \type{\chapter} or 
+%D \type{\section} the \type{\start... \stop...} version:
+%D \type{\startChapter[title={Whatever}]}
+%D \type{Lorum ipsum}
+%D \type{\stopChapter}
+
+% (Only for historic reason) This does not work:
+% \definecounter[ParagraphNumber][way={bychapter,bysection,bysubsection,bysubsubsection},prefix=no]
+% This works, but overwrites the space definitions in after:
+% \setuphead[chapter,section,subsection,subsubsection][after={\resetcounter[ParagraphNumber]}]
+%
+% That is why t-pararef works only with \startchapter, \startsection....
+ 
+\unexpanded\def\startParagraph{\dosingleempty\dostartParagraph}
+\def\dostartParagraph[#1]%
+   {\getrawparameters[Paragraph][title=,reference=,#1]%
+    \incrementcounter[ParagraphNumber]%
+    \ininner{\color[paragraphNumberColor]{\tfx\rawcountervalue[ParagraphNumber]}}%
+    \doifsomething\Paragraphtitle{\inouter{\Paragraphtitle}}%
+    \doifsomething\Paragraphreference{\normalexpanded{\textreference[\Paragraphreference]{\fullheadnumber/\rawcountervalue[ParagraphNumber]}}}%
+    \ignorespaces}
+
+\unexpanded\def\stopParagraph
+    {\blank[medium]}
+
+%D Each section (subsection, subsubsection etc.) has min. three parts:
+%D * introduction part,
+%D * one or several main parts and
+%D * summary part.
+%D Each part contains one or more paragraphs. To make the logic parts visible the parts
+%D are divided by a line \type{\textpartdivider}.
+
+\startuseMPgraphic{textpartdivider}
+ 	draw (0cm,0cm)--(5cm,0cm) withcolor \MPcolor{\textpartdividerColor};
+\stopuseMPgraphic
+
+\define\textpartdivider{\midaligned{\useMPgraphic{textpartdivider}}\blank[big]}
+
+\protect
+\stopmodule
+\endinput

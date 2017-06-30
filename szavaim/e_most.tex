@@ -1,0 +1,195 @@
+\startenvironment e_szotaram
+
+\definecounter[SzoBekSzam][way=bytext,prefix=no]
+\definecounter[AxiomaSzam][way=bytext,prefix=no]
+
+\def\Szotextcommand#1{\hbox{#1\enspace\bullet\enspace}}
+
+\definehead[Szo][section]
+% https://tex.stackexchange.com/a/375930/50554
+\setuphead [Szo][%S
+  number=no,%
+  %textdistance=0pt,%
+  %commandbefore={\resetcounter[ParagraphNumber]\null},%
+  %textcommand=\Szotextcommand,%
+  commandafter={\enspace\bullet\enspace},%
+  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\hskip 0.25em plus 0.25em minus 0.125em\relax},
+  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\kern 0.25em\relax},
+  alternative=text,%
+  insidesection={\resetcounter[SzoBekSzam]},%
+  style=\bf,%
+  textdistance=-\currentspaceskip%
+]
+
+%\defineenumeration
+%  [Szo]
+%  [
+%    text=,%
+%    number=no,%
+%    title=yes,%
+%    titlestyle=bf,%
+%    titledistance=0pt,%
+%    titleleft=,%
+%    titleright={\enspace\bullet},%
+%    distance=0.5em,%
+%    alternative=serried%
+%  ]
+
+%\defineenumeration[axiomaenum]
+%                  [
+%                    before=,
+%                    after=,
+%                    text=T,%Space after Theorem is delibrate
+%                    number=yes,%
+%                    title=yes,%
+%                    titledistance=0pt,%
+%                    titleleft=,%
+%                    titleright= axióma,%
+%                    alternative=inmargin,%
+%                    distance=1em,%
+%                    titlestyle=\sc,%
+%                    style=\em,% or italic
+%                    width=fit,%
+%                    headstyle=\tfx,
+%                 ]
+%
+%\define\startaxioma
+%  {\dosingleargument\dostartaxioma}
+%
+%\def\dostartaxioma[#1]%
+%    {
+%    %\ininner{\tfx\theaxioma}
+%    \startaxiomaenum[#1]%
+%     \crlf
+%     }
+%
+%\define\stopaxioma
+%    {\stopaxiomaenum
+%    }
+
+
+
+
+%\unexpanded\def\startBek{\incrementcounter[SzoBekSzam]%
+%    \ifnum\rawcountervalue[SzoBekSzam]>1
+%    \ininner{\tfx\rawcountervalue[SzoBekSzam]}%
+%    \ignorespaces
+%    \fi}
+
+\def\BekRefNev{\currentstructuretitle.\rawcountervalue[SzoBekSzam]}
+\def\BekRefKulcs#1{Bek:\currentstructuretitle:#1}
+%def\BekRefNevesitettKulcs{Bek:\currentstructuretitle:\getvariable{SzoBekSzam:ref}{ref}}
+\define\startBek{\dosingleempty\doStartBek}%
+\def\doStartBek[#1]{%
+    \incrementcounter[SzoBekSzam]%
+    %\setevariables[SzoBekSzam:ref][ref=xxx]
+    \doifsomething{#1}{\setevariables[SzoBekSzam:ref][ref=#1]}%
+    \setevariables[SzoBekSzam:ref][ref={\rawcountervalue[SzoBekSzam]}]%
+    %\setvariables[SzoBekSzam:ref][%
+    %  %ref=test%
+    %  %ref={\iffirstargument#1\else{\rawcountervalue[SzoBekSzam]}\fi}%
+    %  %ref={\doifsomethingelse{#1}{#1}{\rawcountervalue[SzoBekSzam]}}
+    %  ref={}
+    %  %ref={\rawcountervalue[SzoBekSzam]}
+    %]%
+    \expanded{\textreference[\BekRefKulcs{\rawcountervalue[SzoBekSzam]}]{\BekRefNev}}%
+    \doifsomething{#1}{\expanded{\textreference[\BekRefKulcs{#1}]{\BekRefNev}}}%
+    \ifnum\rawcountervalue[SzoBekSzam]>1%
+    \ininner{\tfx%
+      \rawcountervalue[SzoBekSzam]
+      %\BekRefKulcs{\rawcountervalue[SzoBekSzam]}
+    }%
+    \ignorespaces%
+    \fi}
+
+\unexpanded\def\stopBek{\relax}
+
+
+%\unexpanded\def\startAxioma{\incrementcounter[SzoBekSzam]%
+%    \ifnum\rawcountervalue[SzoBekSzam]>1
+%    \ininner{\tfx\rawcountervalue[SzoBekSzam]}%
+%    \ignorespaces
+%    \fi}
+%
+%\unexpanded\def\stopAxioma{\relax}
+
+%\def\AxiomaCommand#1#2{#1 #2}
+\def\AxiomaNumberCommand#1{\ininner{\tfx A#1}}
+\def\AxiomaNumCommand{\ininner{A\somenamedheadnumber{Axioma}{current}}}
+\def\AxiomaTextCommand#1{#1 axióma}
+
+\definehead[Axioma][subsection]
+% https://tex.stackexchange.com/a/375930/50554
+%\setuphead[Axioma][%S
+%  before=\relax,%
+%  after=\relax,%
+%  inbetween=\relax,%
+%%  command=\AxiomaCommand,
+%  commandbefore=\relax,%
+%  commandafter=\relax,%
+%  commandinbetween=\relax,%
+%  beforesecton=\relax,%
+%  aftersection=\relax,%
+%  number=yes,%
+%  numbercommand=\AxiomaNumberCommand,%
+%  textdistance=1em,%
+%  textcommand=\AxiomaTextCommand,
+%  %commandbefore={\resetcounter[ParagraphNumber]\null},%
+%  %commandafter={\enspace\bullet\enspace},%
+%  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\hskip 0.25em plus 0.25em minus 0.125em\relax},
+%  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\kern 0.25em\relax},
+%  alternative={text},%
+%  %insidesection={\resetcounter[SzoBekSzam]},%
+%  numberstyle=\tfx,%
+%  hang=broad,%
+%  strut=no,
+%  textstyle=\sc,%
+%  style=\em,%
+%  %textdistance=-\currentspaceskip%
+%]
+
+\defineenumeration[Axioma]
+                  [
+                    before=,%\blank,
+                    after=,%\blank,
+                    inbetween=,%\blank,
+                    text=,%Space after Theorem is delibrate
+                    number=yes,%
+                    numbercommand=\AxiomaNumberCommand,%
+                    title=yes,%
+                    titledistance=0pt,%
+                    titleleft=,%
+                    titleright= axióma: ,%
+                    alternative=serried,%
+                    distance=0.5em,%
+                    titlestyle=\sc,%
+                    style=\em,% or italic
+                    width=fit,%
+                    headstyle=,
+                 ]
+
+
+%\defineenumeration[B]
+%[location=inner,
+%headstyle=bold,     % Bold remark headers
+%inbetween={\blank[nowhite]},   % No blank line between remark header and remark
+%after=\blank]
+
+%\definemargindata[lasd]
+%    [
+%      distance=\outermargindistance,%
+%      location=outer,%
+%      align={nothanging,nohz,hyphenated,morehyphenated},
+%      stack=continue, % or yes
+%      style=\tfx\em,
+%      width=\outermarginwidth
+%    ]
+\setupmargindata[inouter][
+  align={outer,nothanging,nohz,hyphenated,morehyphenated},
+  stack=continue,
+  style=\tfx]
+\def\lasd#1{\inouter{\em #1}}
+
+\setupindenting[no]
+
+\stopenvironment

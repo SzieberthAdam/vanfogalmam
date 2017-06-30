@@ -1,0 +1,1115 @@
+local utilitydata = { }
+
+utilitydata.comment={
+ ["escape"]="[===[ ... ]===]",
+ ["file"]="szavaim",
+ ["format"]="cont-en",
+ ["stamp"]="2017.05.15 21:48",
+ ["version"]=1.3,
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.checksums={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.variables then utilitydata.job.variables = { } end
+
+utilitydata.job.variables.collected={
+ ["macros"]={},
+ ["randomseed"]=0.22031311990722,
+ ["sectionblockorder"]={},
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.structure then utilitydata.job.structure = { } end
+
+utilitydata.job.structure.collected={
+ ["branches"]={
+  {
+   ["branches"]={
+    {
+     ["branches"]={},
+     ["name"]="e_def",
+     ["type"]="environment",
+    },
+    {
+     ["branches"]={},
+     ["name"]="e_magyar",
+     ["type"]="environment",
+    },
+    {
+     ["branches"]={},
+     ["name"]="e_konyv",
+     ["type"]="environment",
+    },
+    {
+     ["branches"]={},
+     ["name"]="e_szotaram",
+     ["type"]="environment",
+    },
+    {
+     ["branches"]={
+      {
+       ["branches"]={},
+       ["name"]="ember",
+       ["type"]="component",
+      },
+      {
+       ["branches"]={},
+       ["name"]="isten",
+       ["type"]="component",
+      },
+     },
+     ["name"]="szavaim",
+     ["type"]="product",
+    },
+   },
+   ["name"]="project_szavaim",
+   ["type"]="project",
+  },
+ },
+ ["name"]="szavaim",
+ ["type"]="text",
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.positions then utilitydata.job.positions = { } end
+
+utilitydata.job.positions.collected={
+ ["md:h"]={
+  [18]={
+   ["x"]=3153702,
+  },
+  [22]={
+   ["x"]=3153702,
+  },
+  [24]={
+   ["x"]=3153702,
+  },
+  [27]={
+   ["x"]=3153702,
+  },
+  [30]={
+   ["x"]=3153702,
+  },
+  [32]={
+   ["x"]=3153702,
+  },
+  [35]={
+   ["x"]=3153702,
+  },
+  [43]={
+   ["x"]=3153702,
+  },
+  [97]={
+   ["x"]=3153702,
+  },
+  [105]={
+   ["x"]=3153702,
+  },
+  [108]={
+   ["x"]=3153702,
+  },
+  [113]={
+   ["x"]=3153702,
+  },
+  [124]={
+   ["x"]=3153702,
+  },
+  [126]={
+   ["x"]=3153702,
+  },
+  [129]={
+   ["x"]=3153702,
+  },
+  [135]={
+   ["x"]=3153702,
+  },
+  [137]={
+   ["x"]=3153702,
+  },
+  [146]={
+   ["x"]=3153702,
+  },
+  [149]={
+   ["x"]=3153702,
+  },
+  [157]={
+   ["x"]=3153702,
+  },
+  [159]={
+   ["x"]=3153702,
+  },
+  [168]={
+   ["x"]=3153702,
+  },
+  [170]={
+   ["x"]=3153702,
+  },
+  [181]={
+   ["x"]=3153702,
+  },
+  [182]={
+   ["x"]=3153702,
+  },
+ },
+ ["md:v"]={
+  {
+   ["continue"]={
+    ["right"]=551054,
+   },
+   ["p"]=1,
+   ["y"]=23788684,
+   ["yes"]={
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["right"]=551054,
+   },
+   ["p"]=1,
+   ["y"]=20954704,
+   ["yes"]={
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["right"]=551054,
+   },
+   ["p"]=1,
+   ["y"]=19537714,
+   ["yes"]={
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["right"]=551054,
+   },
+   ["p"]=1,
+   ["y"]=17412229,
+   ["yes"]={
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["right"]=551054,
+   },
+   ["p"]=1,
+   ["y"]=15286744,
+   ["yes"]={
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["right"]=1102108,
+   },
+   ["p"]=3,
+   ["y"]=15995239,
+   ["yes"]={
+    ["right"]=1102108,
+   },
+  },
+  {
+   ["continue"]={
+    ["right"]=551054,
+   },
+   ["p"]=3,
+   ["y"]=12452764,
+   ["yes"]={
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["right"]=551054,
+   },
+   ["p"]=3,
+   ["y"]=10327279,
+   ["yes"]={
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["right"]=551054,
+   },
+   ["p"]=3,
+   ["y"]=6784804,
+   ["yes"]={
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["inner"]=708495,
+    ["left"]=1653162,
+   },
+   ["p"]=4,
+   ["y"]=18829219,
+   ["yes"]={
+    ["inner"]=708495,
+    ["left"]=1653162,
+   },
+  },
+  {
+   ["continue"]={
+    ["inner"]=708495,
+    ["left"]=551054,
+   },
+   ["p"]=4,
+   ["y"]=12452764,
+   ["yes"]={
+    ["inner"]=708495,
+    ["left"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["inner"]=708495,
+    ["left"]=551054,
+   },
+   ["p"]=4,
+   ["y"]=6076309,
+   ["yes"]={
+    ["inner"]=708495,
+    ["left"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["inner"]=708495,
+    ["right"]=551054,
+   },
+   ["p"]=5,
+   ["y"]=23788684,
+   ["yes"]={
+    ["inner"]=708495,
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["inner"]=708495,
+    ["right"]=551054,
+   },
+   ["p"]=5,
+   ["y"]=15995239,
+   ["yes"]={
+    ["inner"]=708495,
+    ["right"]=551054,
+   },
+  },
+  {
+   ["continue"]={
+    ["inner"]=708495,
+    ["right"]=551054,
+   },
+   ["p"]=5,
+   ["y"]=15286744,
+   ["yes"]={
+    ["inner"]=708495,
+    ["right"]=551054,
+   },
+  },
+  ["pages"]={
+   1,
+   1,
+   1,
+   1,
+   1,
+   [9]=3,
+   [10]=3,
+   [11]=3,
+   [12]=3,
+   [13]=3,
+   [18]=4,
+   [19]=4,
+   [20]=4,
+   [21]=4,
+   [23]=4,
+   [26]=5,
+   [27]=5,
+   [28]=5,
+  },
+ },
+ ["p:1"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=1,
+  ["x"]=3153702,
+  ["y"]=14578249,
+ },
+ ["p:10"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=3,
+  ["x"]=3153702,
+  ["y"]=14578249,
+ },
+ ["p:11"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=3,
+  ["x"]=3153702,
+  ["y"]=13869754,
+ },
+ ["p:12"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=3,
+  ["x"]=3153702,
+  ["y"]=6076309,
+ },
+ ["p:13"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=4,
+  ["x"]=4730674,
+  ["y"]=23080189,
+ },
+ ["p:14"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=4,
+  ["x"]=4730674,
+  ["y"]=22371694,
+ },
+ ["p:15"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=4,
+  ["x"]=4730674,
+  ["y"]=20954704,
+ },
+ ["p:16"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=4,
+  ["x"]=4730674,
+  ["y"]=20246209,
+ },
+ ["p:17"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=4,
+  ["x"]=4730674,
+  ["y"]=11744269,
+ },
+ ["p:18"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=4,
+  ["x"]=4730674,
+  ["y"]=5367814,
+ },
+ ["p:19"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=5,
+  ["x"]=3153702,
+  ["y"]=25205674,
+ },
+ ["p:2"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=1,
+  ["x"]=3153702,
+  ["y"]=13161259,
+ },
+ ["p:20"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=6,
+  ["x"]=4730674,
+  ["y"]=26622664,
+ },
+ ["p:3"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["ls"]=884736,
+  ["p"]=1,
+  ["pi"]=884736,
+  ["x"]=4038438,
+  ["y"]=8910289,
+ },
+ ["p:4"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["ls"]=884736,
+  ["p"]=1,
+  ["pi"]=884736,
+  ["x"]=4038438,
+  ["y"]=7493299,
+ },
+ ["p:5"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=1,
+  ["x"]=3153702,
+  ["y"]=6076309,
+ },
+ ["p:6"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=2,
+  ["x"]=4730674,
+  ["y"]=20954704,
+ },
+ ["p:7"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=2,
+  ["x"]=4730674,
+  ["y"]=6784804,
+ },
+ ["p:8"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=3,
+  ["x"]=3153702,
+  ["y"]=21663199,
+ },
+ ["p:9"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=14305313,
+  ["p"]=3,
+  ["x"]=3153702,
+  ["y"]=15286744,
+ },
+ ["page:1"]={
+  ["h"]=30394280,
+  ["w"]=22189689,
+ },
+ ["text:1"]={
+  ["h"]=22720204,
+  ["p"]=1,
+  ["w"]=14305313,
+  ["x"]=3153702,
+  ["y"]=4433831,
+ },
+ ["text:2"]={
+  ["h"]=22720204,
+  ["p"]=2,
+  ["w"]=14305313,
+  ["x"]=4730674,
+  ["y"]=4433831,
+ },
+ ["text:3"]={
+  ["h"]=22720204,
+  ["p"]=3,
+  ["w"]=14305313,
+  ["x"]=3153702,
+  ["y"]=4433831,
+ },
+ ["text:4"]={
+  ["h"]=22720204,
+  ["p"]=4,
+  ["w"]=14305313,
+  ["x"]=4730674,
+  ["y"]=4433831,
+ },
+ ["text:5"]={
+  ["h"]=22720204,
+  ["p"]=5,
+  ["w"]=14305313,
+  ["x"]=3153702,
+  ["y"]=4433831,
+ },
+ ["text:6"]={
+  ["h"]=22720204,
+  ["p"]=6,
+  ["w"]=14305313,
+  ["x"]=4730674,
+  ["y"]=4433831,
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.passes then utilitydata.job.passes = { } end
+
+utilitydata.job.passes.collected={
+ ["itemgroup:itemize:1"]={
+  { 2, 0 },
+ },
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.datasets then utilitydata.job.datasets = { } end
+
+utilitydata.job.datasets.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
+
+utilitydata.job.pagestates.collected={
+ ["margintext"]={ 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5 },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.specials then utilitydata.structures.specials = { } end
+
+utilitydata.structures.specials.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.counters then utilitydata.structures.counters = { } end
+
+utilitydata.structures.counters.collected={
+ ["Axioma"]={
+  { 3 },
+ },
+ ["AxiomaSzam"]={
+  { 0 },
+ },
+ ["SzoBekSzam"]={
+  { 0, 4, 5 },
+ },
+ ["chemical"]={
+  { 0 },
+ },
+ ["combination"]={
+  { 0 },
+ },
+ ["endnote"]={
+  { 0 },
+ },
+ ["figure"]={
+  { 0 },
+ },
+ ["footnote"]={
+  { 0 },
+ },
+ ["formula"]={
+  { 0 },
+ },
+ ["graphic"]={
+  { 0 },
+ },
+ ["intermezzo"]={
+  { 0 },
+ },
+ ["itemgroup:itemize"]={
+  { 0, 2 },
+ },
+ ["linenote"]={
+  { 0 },
+ },
+ ["paragraph"]={
+  { 0 },
+ },
+ ["realpage"]={
+  { 6 },
+ },
+ ["subpage"]={
+  { 1 },
+ },
+ ["table"]={
+  { 0 },
+ },
+ ["userpage"]={
+  { 6 },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.lists then utilitydata.structures.lists = { } end
+
+utilitydata.structures.lists.collected={
+ {
+  ["metadata"]=1,
+  ["numberdata"]=3,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="ember",
+   ["internal"]=1,
+   ["realpage"]=1,
+   ["reference"]="szo:ember",
+   ["section"]=1,
+   ["x"]=5639221,
+   ["y"]=26622664,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="ember",
+  },
+ },
+ {
+  ["metadata"]=1,
+  ["numberdata"]=5,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="isten",
+   ["internal"]=6,
+   ["realpage"]=4,
+   ["reference"]="szo:Isten",
+   ["section"]=2,
+   ["x"]=6858759,
+   ["y"]=26622664,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Isten",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=8,
+  ["prefixdata"]=9,
+  ["references"]={
+   ["component"]="isten",
+   ["internal"]=9,
+   ["order"]=1,
+   ["realpage"]=4,
+   ["section"]=2,
+   ["x"]=4730674,
+   ["y"]=23080189,
+  },
+  ["titledata"]={
+   ["title"]="Mindenhatósági",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=11,
+  ["prefixdata"]=9,
+  ["references"]={
+   ["component"]="isten",
+   ["internal"]=10,
+   ["order"]=2,
+   ["realpage"]=4,
+   ["section"]=2,
+   ["x"]=4730674,
+   ["y"]=22371694,
+  },
+  ["titledata"]={
+   ["title"]="Hatás",
+  },
+ },
+ {
+  ["metadata"]=6,
+  ["numberdata"]=13,
+  ["prefixdata"]=9,
+  ["references"]={
+   ["component"]="isten",
+   ["internal"]=11,
+   ["order"]=3,
+   ["realpage"]=4,
+   ["section"]=2,
+   ["x"]=4730674,
+   ["y"]=20954704,
+  },
+  ["titledata"]={
+   ["title"]="Éltetési",
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.pages then utilitydata.structures.pages = { } end
+
+utilitydata.structures.pages.collected={
+ {
+  ["block"]="bodypart",
+  ["number"]=1,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=2,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=3,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=4,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=5,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=6,
+  ["numberdata"]=14,
+  ["prefixdata"]=15,
+  ["state"]="start",
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.collected={
+ ["ember"]={
+  ["Bek:ember:1"]={
+   ["entries"]={
+    ["text"]="ember.1",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=2,
+    ["prefix"]="ember",
+    ["realpage"]=1,
+    ["reference"]="Bek:ember:1",
+    ["section"]=1,
+    ["view"]="fit",
+    ["x"]=5671010,
+    ["y"]=26622664,
+   },
+  },
+  ["Bek:ember:2"]={
+   ["entries"]={
+    ["text"]="ember.2",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=3,
+    ["prefix"]="ember",
+    ["realpage"]=1,
+    ["reference"]="Bek:ember:2",
+    ["section"]=1,
+    ["view"]="fit",
+    ["x"]=3153702,
+    ["y"]=14578249,
+   },
+  },
+  ["Bek:ember:3"]={
+   ["entries"]={
+    ["text"]="ember.3",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=4,
+    ["prefix"]="ember",
+    ["realpage"]=1,
+    ["reference"]="Bek:ember:3",
+    ["section"]=1,
+    ["view"]="fit",
+    ["x"]=3153702,
+    ["y"]=13161259,
+   },
+  },
+  ["Bek:ember:4"]={
+   ["entries"]={
+    ["text"]="ember.4",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=5,
+    ["prefix"]="ember",
+    ["realpage"]=1,
+    ["reference"]="Bek:ember:4",
+    ["section"]=1,
+    ["view"]="fit",
+    ["x"]=3153702,
+    ["y"]=6076309,
+   },
+  },
+ },
+ ["isten"]={
+  ["Bek:Isten:1"]={
+   ["entries"]={
+    ["text"]="Isten.1",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=7,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Isten:1",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=6891864,
+    ["y"]=26622664,
+   },
+  },
+  ["Bek:Isten:2"]={
+   ["entries"]={
+    ["text"]="Isten.2",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=12,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Isten:2",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=4730674,
+    ["y"]=20246209,
+   },
+  },
+  ["Bek:Isten:3"]={
+   ["entries"]={
+    ["text"]="Isten.3",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=14,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Isten:3",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=4730674,
+    ["y"]=11744269,
+   },
+  },
+  ["Bek:Isten:4"]={
+   ["entries"]={
+    ["text"]="Isten.4",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=15,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Isten:4",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=4730674,
+    ["y"]=5367814,
+   },
+  },
+  ["Bek:Isten:5"]={
+   ["entries"]={
+    ["text"]="Isten.5",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=16,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Isten:5",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3153702,
+    ["y"]=25205674,
+   },
+  },
+  ["Bek:Isten:elso"]={
+   ["entries"]={
+    ["text"]="Isten.1",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=8,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Isten:elso",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=6891864,
+    ["y"]=26622664,
+   },
+  },
+  ["Bek:Isten:masodik"]={
+   ["entries"]={
+    ["text"]="Isten.2",
+   },
+   ["metadata"]=16,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=13,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Isten:masodik",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=4730674,
+    ["y"]=20246209,
+   },
+  },
+ },
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.references then utilitydata.structures.references = { } end
+
+utilitydata.structures.references.referred={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.objects then utilitydata.job.objects = { } end
+
+utilitydata.job.objects.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.synonyms then utilitydata.structures.synonyms = { } end
+
+utilitydata.structures.synonyms.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.registers then utilitydata.structures.registers = { } end
+
+utilitydata.structures.registers.collected={
+}
+
+if not utilitydata.structures then utilitydata.structures = { } end
+if not utilitydata.structures.blocks then utilitydata.structures.blocks = { } end
+
+utilitydata.structures.blocks.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.files then utilitydata.job.files = { } end
+
+utilitydata.job.files.collected={
+}
+
+if not utilitydata.publications then utilitydata.publications = { } end
+
+utilitydata.publications.collected={
+}
+
+if not utilitydata.job then utilitydata.job = { } end
+if not utilitydata.job.fileobjreferences then utilitydata.job.fileobjreferences = { } end
+
+utilitydata.job.fileobjreferences.collected={
+}
+
+utilitydata.job.packed={
+ ["index"]={
+  {
+   ["catcodes"]=8,
+   ["coding"]="tex",
+   ["increment"]="yes",
+   ["kind"]="section",
+   ["level"]=3,
+   ["name"]="Szo",
+  },
+  { 0, 0, 1 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hu",
+   ["numbers"]=2,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 2 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hu",
+   ["numbers"]=4,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="construction",
+   ["level"]=3,
+   ["name"]="Axioma",
+  },
+  { 1 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=7,
+  },
+  {
+   ["connector"]=".",
+   ["prefix"]="no",
+   ["segments"]="2:2",
+  },
+  { 2 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=10,
+  },
+  { 3 },
+  {
+   ["conversionset"]="number",
+   ["numbers"]=12,
+  },
+  {
+   ["conversionset"]="pagenumber",
+  },
+  {
+   ["connector"]="–",
+   ["prefix"]="no",
+   ["set"]="part",
+  },
+  {
+   ["catcodes"]=8,
+   ["kind"]="text",
+  },
+ },
+ ["keys"]={
+  ["directives"]=true,
+  ["metadata"]=true,
+  ["numberdata"]=true,
+  ["numbers"]=true,
+  ["pagedata"]=true,
+  ["prefixdata"]=true,
+  ["processors"]=true,
+  ["sectiondata"]=true,
+  ["specification"]=true,
+ },
+ ["skip"]={
+  ["datasets"]=true,
+  ["userdata"]=true,
+ },
+ ["version"]=1.02,
+}
+
+return utilitydata

@@ -1,0 +1,54 @@
+\startenvironment e_magyar
+
+% Vékony spácium bizonyos karakterek előtt (:;?!)
+\definecharacterspacing [magyarpunctuation]
+\setupcharacterspacing [magyarpunctuation] ["0021] [left=.1,alternative=1] % ! % strip preceding space(char)
+\setupcharacterspacing [magyarpunctuation] ["003A] [left=.1,alternative=1] % : % strip preceding space(char)
+\setupcharacterspacing [magyarpunctuation] ["003B] [left=.1,alternative=1] % ; % strip preceding space(char)
+\setupcharacterspacing [magyarpunctuation] ["003F] [left=.1,alternative=1] % ? % strip preceding space(char)
+
+% A magyar nyelv beállításai
+\startsetups[magyar]
+  % Vékony spácium bizonyos karakterek előtt (:;?!)
+  \setcharacterspacing[magyarpunctuation]
+  \setupindenting[%
+    yes,% A bekezdéseket behúzással kezdjük.
+    next,% Az első bekezdés nincs behúzva.
+    medium% Közepes méretű (átmeneti megoldás: igazából a mérete 24 cicerós sorig 1 kvirt, nagyobbbnál 2 kvirt kellene legyen -> TENNIALÓ)
+  ]
+\stopsetups
+
+\setuplanguage[hu][%
+  setups=magyar,% Érvényesíti a fent megadott beállításokat.
+  spacing=packed% Frenchspacing (Gyurgyák 319. o.: egyenletes szóközök).
+                % http://wiki.contextgarden.net/French_spacing).
+]
+
+% TENNIVALÓ: csak magyar nyelvre
+% Idézetek (Gyurgyák, 86--87. o.).
+\definedelimitedtext[quote][location=text]
+\setupdelimitedtext[quote:1][
+  left={\lowerleftdoubleninequote},
+  right={\upperrightdoubleninequote},
+  spaceafter=0
+]
+\setupdelimitedtext[quote:2][
+  left={\rightguillemot\nobreak\hskip-.07em},
+  right={\kern-0.03em\leftguillemot},
+  spaceafter=0
+]
+\setupdelimitedtext[quote:3][
+  left={\upperleftsingleninequote},
+  right={\upperrightsingleninequote},
+  spaceafter=0
+]
+
+% TENNIVALÓ: csak magyar nyelvre
+% Kiemelés idézőjellel (Gyurgyák, 81. o.).
+\def\emterm#1{\upperleftsingleninequote#1\upperrightsingleninequote}
+% Az alábbi hibát dob: jó lenne tudni, hogyan lehet működőképessé tenni
+%\def\emterm#1{\unprotect\advance\c_typo_delimited_nesting\plusone\quote{#1}\protect}
+\def\emspec#1{\quote{#1}}
+
+
+\stopenvironment

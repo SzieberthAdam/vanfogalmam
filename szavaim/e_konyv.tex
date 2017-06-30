@@ -1,0 +1,77 @@
+\startenvironment e_konyv
+
+% Betűkészlet
+\setupbodyfont[libertinus,9pt]
+
+% Magyar nyelvű.
+\mainlanguage[hu]
+% Bekezdések (Gyurgyák, 78--79. o.).
+\setupalign[
+  justified,
+  nothanging,
+  nohz,
+  hyphenated,
+  morehyphenated]
+\setupbodyfontenvironment[default][em=italic]
+
+%\setuphyphenation[method=traditional]
+\setuphyphenation[method=default]
+
+\setupinmargin[style=\em]
+
+\setuplayout[%
+  grid=yes,% Soregyen (Gyurgyák 319. o.).
+  height=\dimexpr27cc+\headerheight+\headerdistance+\footerheight+\footerdistance\relax,%
+  location=middle,%
+  width=17cc,%
+  backspace=\dimexpr0.4\dimexpr\paperwidth-\makeupwidth\relax\relax,%
+  topspace=\dimexpr\dimexpr\paperheight-\makeupheight\relax/3\relax,%
+  leftmargindistance=0.5cc,%
+  rightmargindistance=0.5cc,%
+  leftmargin=1.5cc,%
+  rightmargin=4cc
+]
+
+% Soregyennél a nagy ékezetes soroknál üres sorok keletkeznek,
+% ha az alábbi nincs beállítva.
+% (https://tex.stackexchange.com/questions/343299/when-i-activate-grid-layout-in-context-empty-lines-inexplicably-appear)
+\setupinterlinespace[height=0.75,depth=0.25]
+
+% Lábjegyzetek
+\setupnotation[footnote][
+  alternative={standard},
+  indenting=yes% Tömbös szedés. (Gyurgyák 124--125. o.)
+]
+\setupnote[footnote][
+  margindistance=2em,
+  rule=off,% Lábjegyzet sor kihagyásával, léni nélkül.
+          % (Gyurgyák 123. o.)
+  % Szélessége a szedéstükörrel megegyező legyen:
+  width=\ifdim\hsize<\makeupwidth\hsize\else\makeupwidth\fi
+]
+
+% Oldalszámozás
+\setuppagenumbering[%
+  location={footer, right},% Tükör alá. (Gyurgyák 203. o.)
+  alternative=doublesided,
+  %alternative=doublesided
+]
+
+%\setupparagraphnumbering[%
+%  state=start,%
+%  style=\em,%
+%  distance=0pt
+%]
+
+% Definiálok egy lapméretet a körülvágott könyvnek
+% (Gyurgyák, 401. o).
+\definepapersize[%
+  VB6% vágott B5
+  ][%
+  height=163mm,%
+  width=119mm%
+]
+% Beállítom a körülvégott méretet lapméretnek.
+\setuppapersize[VB6]
+
+\stopenvironment
