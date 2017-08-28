@@ -13,7 +13,7 @@
   end
   function userdata.hivatkozasgyujto_ki()
     if next(userdata.hivatkozasgyujto_lista) ~= nil then
-      context("{\\tfx\\em(" .. table.concat(userdata.hivatkozasgyujto_lista,", ") .. ")}")
+      context("\\quad$\\parallel$~{\\tfx\\em " .. table.concat(userdata.hivatkozasgyujto_lista,", ") .. "}")
       userdata.hivatkozasgyujto_torol()
     end
   end
@@ -29,14 +29,39 @@
 
 \definehead[Szo][section]
 % https://tex.stackexchange.com/a/375930/50554
-\setuphead [Szo][%S
+%\setuphead [Szo][%S
+%  number=no,%
+%  %textdistance=0pt,%
+%  %commandbefore={\resetcounter[ParagraphNumber]\null},%
+%  %textcommand=\Szotextcommand,%
+%  commandafter={\enspace\bullet\enspace},%
+%  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\hskip 0.25em plus 0.25em minus 0.125em\relax},
+%  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\kern 0.25em\relax},
+%  alternative=text,%
+%  insidesection={\resetcounter[SzoBekSzam]},%
+%  style=\bf,%
+%  textdistance=-\currentspaceskip%
+%]
+
+\definefloat[szo][szavak]
+\setupfloats[szo][sidealign=line]
+
+% \define[2]\MyChapter
+%   {\framed[frame=on,location={inner,none,low},height=2\baselineskip,align=flushleft]{#2}}
+
+\setuphead[Szo][%S
   number=no,%
+  before=\relax,% ez kell, hogy ne legyen üres tér a szavakat megelőzően
+  %indentnext=no,% ez sem képes megakadályozni, a sortörést, ha a programkódban ki van hagyva egy sor
+  %aligntitle=float,
+  %command=\MyChapter,
   %textdistance=0pt,%
   %commandbefore={\resetcounter[ParagraphNumber]\null},%
   %textcommand=\Szotextcommand,%
-  commandafter={\enspace\bullet\enspace},%
+  %commandafter={\enspace\bullet\enspace},%
   %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\hskip 0.25em plus 0.25em minus 0.125em\relax},
   %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\kern 0.25em\relax},
+  commandafter={\kern 0.5em\bullet\kern 0.5em\relax},
   alternative=text,%
   insidesection={\resetcounter[SzoBekSzam]},%
   style=\bf,%
@@ -102,7 +127,8 @@
 \def\BekRefKulcs#1{Bek:\currentstructuretitle:#1}
 %def\BekRefNevesitettKulcs{Bek:\currentstructuretitle:\getvariable{SzoBekSzam:ref}{ref}}
 \define\startBek{\dosingleempty\doStartBek}%
-\def\doStartBek[#1]{%
+\def\doStartBek[#1]{\relax%
+    %\doifelse{\rawcountervalue[SzoBekSzam]}{0}{\relax}{\relax}% az elsőnek meg kellene szüntetnie az új bekezdést
     \incrementcounter[SzoBekSzam]%
     %\setevariables[SzoBekSzam:ref][ref=xxx]
     \doifsomething{#1}{\setevariables[SzoBekSzam:ref][ref=#1]}%
@@ -124,10 +150,10 @@
     \ignorespaces%
     \fi}
 
-\unexpanded\def\stopBek{\relax}
-%\unprotect
-%\define\stopBek{\ctxlua{userdata.hivatkozasgyujto_ki()}\relax}
-%\protect
+%\unexpanded\def\stopBek{\relax}
+\unprotect
+\define\stopBek{\ctxlua{userdata.hivatkozasgyujto_ki()}\relax}
+\protect
 
 
 %\unexpanded\def\startAxioma{\incrementcounter[SzoBekSzam]%
