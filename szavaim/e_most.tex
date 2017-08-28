@@ -51,21 +51,21 @@
 
 \setuphead[Szo][%S
   number=no,%
-  before=\relax,% ez kell, hogy ne legyen üres tér a szavakat megelőzően
+  %before=\relax,% ez kell, hogy ne legyen üres tér a szavakat megelőzően
   %indentnext=no,% ez sem képes megakadályozni, a sortörést, ha a programkódban ki van hagyva egy sor
   %aligntitle=float,
   %command=\MyChapter,
-  %textdistance=0pt,%
+  textdistance=0pt,%
   %commandbefore={\resetcounter[ParagraphNumber]\null},%
   %textcommand=\Szotextcommand,%
   %commandafter={\enspace\bullet\enspace},%
   %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\hskip 0.25em plus 0.25em minus 0.125em\relax},
   %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\kern 0.25em\relax},
-  commandafter={\kern 0.5em\bullet\kern 0.5em\relax},
-  alternative=text,%
+  %commandafter={\kern 0.5em\bullet\kern 0.5em\relax},
+  %alternative=text,%
   insidesection={\resetcounter[SzoBekSzam]},%
   style=\bf,%
-  textdistance=-\currentspaceskip%
+  %textdistance=-\currentspaceskip%
 ]
 
 %\defineenumeration
@@ -142,13 +142,14 @@
     %]%
     \expanded{\textreference[\BekRefKulcs{\rawcountervalue[SzoBekSzam]}]{\BekRefNev}}%
     \doifsomething{#1}{\expanded{\textreference[\BekRefKulcs{#1}]{\BekRefNev}}}%
-    \ifnum\rawcountervalue[SzoBekSzam]>1%
+    %\ifnum\rawcountervalue[SzoBekSzam]>1%
     \ininner{\tfx%
       \rawcountervalue[SzoBekSzam]
       %\BekRefKulcs{\rawcountervalue[SzoBekSzam]}
     }%
     \ignorespaces%
-    \fi}
+    %\fi
+    }
 
 %\unexpanded\def\stopBek{\relax}
 \unprotect

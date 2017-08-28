@@ -23,62 +23,15 @@ close source    > level 3, order 7, name 'e_konyv.tex'
 open source     > level 3, order 8, name 'e_most.tex'
 close source    > level 3, order 8, name 'e_most.tex'
 system          > jobfiles > using path: szo
-open source     > level 3, order 9, name 'szo/hazaindult.tex'
-structure       > sectioning > Szo @ level 3 : 0.0.1 -> hazaindult
-close source    > level 3, order 9, name 'szo/hazaindult.tex'
-open source     > level 3, order 10, name 'szo/hazatert.tex'
-structure       > sectioning > Szo @ level 3 : 0.0.2 -> hazatért
-close source    > level 3, order 10, name 'szo/hazatert.tex'
-open source     > level 3, order 11, name 'szo/hit.tex'
-structure       > sectioning > Szo @ level 3 : 0.0.3 -> hit
-
-Overfull \hbox (1.53409pt too wide) in paragraph at lines 27--30
-[][][][][]\3>libertinus-9pt-rm-tf-0--0 Az is le-het vi-szont, hogy ezek az el-mé-le-tek kö-zös ala-po-kon nyug-
-
-\hbox(6.282+2.142)x231.12186, glue set - 1.0, direction TLT
-.\localpar
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\hbox(0.0+0.0)x0.0, direction TLT
-.\latelua0 <function 468>
-.\hbox(0.0+0.0)x0.0, direction TLT
-..\latelua0{commands.enhancereference("hit","Bek:hit:5")}
-.\penalty 10000
-.etc.
-
+open source     > level 3, order 9, name 'szo/isten.tex'
+structure       > sectioning > Szo @ level 3 : 0.0.1 -> Isten
 layouts         > gridmode, noflines: 33, textheight: 346.6828pt, textovershoot: 10.0728pt (maybe set number of lines instead)
 backend         > xmp > using file 'C:/texlive/2017/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml'
 pages           > flushing realpage 1, userpage 1, subpage 1
-close source    > level 3, order 11, name 'szo/hit.tex'
-open source     > level 3, order 12, name 'szo/isten.tex'
-structure       > sectioning > Szo @ level 3 : 0.0.4 -> Isten
+close source    > level 3, order 9, name 'szo/isten.tex'
 pages           > flushing realpage 2, userpage 2
-
-Overfull \hbox (1.16129pt too wide) in paragraph at lines 77--82
-[][][][][]\3>libertinus-9pt-rm-tf-0--0 A sze-mé-lyes Is-tent az em-be-ri sze-mé-lyi-sé-gen ke-resz-tül le-het meg-
-
-\hbox(6.282+2.142)x231.12186, glue set - 1.0, direction TLT
-.\localpar
-..\localinterlinepenalty=0
-..\localbrokenpenalty=0
-..\localleftbox=null
-..\localrightbox=null
-.\hbox(0.0+0.0)x0.0, direction TLT
-.\latelua0 <function 516>
-.\hbox(0.0+0.0)x0.0, direction TLT
-..\latelua0{commands.enhancereference("isten","Bek:Isten:12")}
-.\penalty 10000
-.etc.
-
-pages           > flushing realpage 3, userpage 3
-pages           > flushing realpage 4, userpage 4
-pages           > flushing realpage 5, userpage 5
-close source    > level 3, order 12, name 'szo/isten.tex'
-pages           > flushing realpage 6, userpage 6
-close source    > level 2, order 12, name 'C:/Users/adam/github/szavaim/szavaim/szavaim.tex'
-close source    > level 1, order 12, name 'C:/texlive/2017/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
+close source    > level 2, order 9, name 'C:/Users/adam/github/szavaim/szavaim/szavaim.tex'
+close source    > level 1, order 9, name 'C:/texlive/2017/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
 
 system          > structure > start used structure
 
@@ -89,9 +42,6 @@ used structure  >     environment: e_magyar
 used structure  >     environment: e_konyv
 used structure  >     environment: e_szotaram
 used structure  >     product: szavaim
-used structure  >       component: hit
-used structure  >       component: hit
-used structure  >       component: hit
 used structure  >       component: isten
 
 system          > structure > stop used structure
@@ -100,9 +50,9 @@ system          > structure > stop used structure
 system          > files > start used files
 
 used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=C:/texlive/2017/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv usedmethod=database
-used file       >    2: filename=publ-imp-default.lua filetype=lua foundname=C:/texlive/2017/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
+used file       >    2: filename=publ-imp-default.lua filetype=scripts foundname=C:/texlive/2017/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 used file       >    3: filename=cont-new.mkiv filetype=tex foundname=C:/texlive/2017/texmf-dist/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
-used file       >    4: filename=lang-us.lua filetype=lua foundname=C:/texlive/2017/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
+used file       >    4: filename=lang-us.lua filetype=scripts foundname=C:/texlive/2017/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
 used file       >    5: filename=C:\Users\adam\github\szavaim\szavaim/szavaim.tex foundname=C:/Users/adam/github/szavaim/szavaim/szavaim.tex usedmethod=direct
 used file       >    6: filename=e_def.tex foundname=e_def.tex usedmethod=direct
 used file       >    7: filename=e_magyar.tex foundname=e_magyar.tex usedmethod=direct
@@ -110,15 +60,12 @@ used file       >    8: filename=e_konyv.tex foundname=e_konyv.tex usedmethod=di
 used file       >    9: filename=type-imp-libertinus.mkiv filetype=tex foundname=C:/texlive/2017/texmf-dist/tex/context/fonts/mkiv/type-imp-libertinus.mkiv usedmethod=database
 used file       >   10: filename=libertinusserif-regular filetype=otf format=otf foundname=C:/texlive/2017/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-regular.otf usedmethod=database
 used file       >   11: filename=libertinusmath-regular.otf filetype=otf format=otf foundname=C:/texlive/2017/texmf-dist/fonts/opentype/public/libertinus/libertinusmath-regular.otf usedmethod=database
-used file       >   12: filename=lang-hu.lua filetype=lua foundname=C:/texlive/2017/texmf-dist/tex/context/patterns/mkiv/lang-hu.lua usedmethod=database
+used file       >   12: filename=lang-hu.lua filetype=scripts foundname=C:/texlive/2017/texmf-dist/tex/context/patterns/mkiv/lang-hu.lua usedmethod=database
 used file       >   13: filename=e_most.tex foundname=e_most.tex usedmethod=direct
-used file       >   14: filename=szo/hazaindult.tex foundname=szo/hazaindult.tex usedmethod=direct
+used file       >   14: filename=szo/isten.tex foundname=szo/isten.tex usedmethod=direct
 used file       >   15: filename=libertinusserif-bold filetype=otf format=otf foundname=C:/texlive/2017/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-bold.otf usedmethod=database
 used file       >   16: filename=libertinusserif-italic filetype=otf format=otf foundname=C:/texlive/2017/texmf-dist/fonts/opentype/public/libertinus/libertinusserif-italic.otf usedmethod=database
-used file       >   17: filename=szo/hazatert.tex foundname=szo/hazatert.tex usedmethod=direct
-used file       >   18: filename=szo/hit.tex foundname=szo/hit.tex usedmethod=direct
-used file       >   19: filename=lpdf-pdx.xml filetype=tex foundname=C:/texlive/2017/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
-used file       >   20: filename=szo/isten.tex foundname=szo/isten.tex usedmethod=direct
+used file       >   17: filename=lpdf-pdx.xml filetype=tex foundname=C:/texlive/2017/texmf-dist/tex/context/base/mkiv/lpdf-pdx.xml usedmethod=database
 
 system          > files > stop used files
 
@@ -143,29 +90,27 @@ system          > options > stop commandline files
 
 mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: 'C:/texlive/2017/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
-mkiv lua stats  > resource resolver: loadtime 0.343 seconds, 1 scans with scantime 0.016 seconds, 0 shared scans, 20 found files, scanned paths: C:/Users/adam/.texlive2017/texmf-config
-mkiv lua stats  > stored bytecode data: 404 modules (1.157 sec), 91 tables (0.062 sec), 495 chunks (1.219 sec)
+mkiv lua stats  > resource resolver: loadtime 0.344 seconds, 1 scans with scantime 0.000 seconds, 0 shared scans, 17 found files, scanned paths: C:/Users/adam/.texlive2017/texmf-config
+mkiv lua stats  > stored bytecode data: 404 modules (1.126 sec), 91 tables (0.046 sec), 495 chunks (1.172 sec)
 mkiv lua stats  > traced context: maxstack: 1233, freed: 2, unreachable: 1231
 mkiv lua stats  > cleaned up reserved nodes: 49 nodes, 9 lists of 447
 mkiv lua stats  > node memory usage: 2 glue, 2 penalty, 16 attribute, 49 glue_spec, 3 attribute_list, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 7 unique task lists, 9 instances (re)created, 686 calls
-mkiv lua stats  > h-node processing time: 0.109 seconds including kernel
-mkiv lua stats  > attribute processing time: 0.031 seconds front- and backend
+mkiv lua stats  > node list callback tasks: 7 unique task lists, 9 instances (re)created, 177 calls
+mkiv lua stats  > h-node processing time: 0.062 seconds including kernel
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.031 seconds saving, 0.000 seconds loading
-mkiv lua stats  > callbacks: 1685 direct, 1148 indirect, 2833 total
+mkiv lua stats  > jobdata time: 0.016 seconds saving, 0.000 seconds loading
+mkiv lua stats  > callbacks: 543 direct, 823 indirect, 1366 total
 mkiv lua stats  > randomizer: resumed with value 0.22031311990722
-mkiv lua stats  > positions: 41 collected, 41 regular, 0 special
-mkiv lua stats  > v-node processing time: 0.016 seconds 
+mkiv lua stats  > positions: 5 collected, 5 regular, 0 special
 mkiv lua stats  > loaded patterns: en::2 hu::23, load time: 0.000
-mkiv lua stats  > interactive elements: 0 references, 86 destinations
+mkiv lua stats  > interactive elements: 0 references, 8 destinations
 mkiv lua stats  > result saved in file: szavaim.pdf, compresslevel 3, objectcompresslevel 3
-mkiv lua stats  > margin data: 40 entries, 0 pending
+mkiv lua stats  > margin data: 4 entries, 0 pending
 mkiv lua stats  > loaded fonts: 4 files: libertinusmath-regular.otf, libertinusserif-bold.otf, libertinusserif-italic.otf, libertinusserif-regular.otf
-mkiv lua stats  > font engine: otf 3.029, afm 1.512, tfm 1.000, 9 instances, 4 shared in backend, 2 common vectors, 2 common hashes, load time 0.905 seconds 
+mkiv lua stats  > font engine: otf 3.029, afm 1.512, tfm 1.000, 8 instances, 3 shared in backend, 1 common vectors, 2 common hashes, load time 0.858 seconds 
 mkiv lua stats  > used platform: mswin, type: windows, binary subtree: bin
 mkiv lua stats  > luatex banner: this is luatex, version 1.0.4 (tex live 2017/w32tex)
-mkiv lua stats  > control sequences: 45375 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua, used memory: 68 MB (ctx: 66 MB), hash type: lua, hash chars: min(32,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 4.386 seconds, 6 processed pages, 6 shipped pages, 1.368 pages/second
+mkiv lua stats  > control sequences: 45364 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 66 MB (ctx: 64 MB), hash type: lua, hash chars: min(32,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 3.574 seconds, 2 processed pages, 2 shipped pages, 0.560 pages/second
 
