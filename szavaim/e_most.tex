@@ -3,20 +3,41 @@
 % https://tex.stackexchange.com/a/43411/50554
 % https://www.gammon.com.au/scripts/doc.php?lua=table.insert
 \startluacode
+
   userdata = userdata or {}
+  userdata.bibrefgyujto_lista = {}
   userdata.hivatkozasgyujto_lista = {}
+
   function userdata.hivatkozasgyujto_torol()
+    userdata.bibrefgyujto_lista = {}
     userdata.hivatkozasgyujto_lista = {}
   end
+
+  function userdata.bibrefgyujto_ad(szoveg)
+    userdata.bibrefgyujto_lista [#userdata.bibrefgyujto_lista + 1] = szoveg
+  end
+
   function userdata.hivatkozasgyujto_ad(szoveg)
     userdata.hivatkozasgyujto_lista [#userdata.hivatkozasgyujto_lista + 1] = szoveg
   end
+
   function userdata.hivatkozasgyujto_ki()
-    if next(userdata.hivatkozasgyujto_lista) ~= nil then
-      context("\\quad$\\parallel$~{\\tfx\\em " .. table.concat(userdata.hivatkozasgyujto_lista,", ") .. "}")
+    if (next(userdata.hivatkozasgyujto_lista) ~= nil or next(userdata.bibrefgyujto_lista) ~= nil) then
+      context("\\quad")
+      if next(userdata.hivatkozasgyujto_lista) ~= nil then
+        context("$\\parallel$~{\\tfx\\em " .. table.concat(userdata.  hivatkozasgyujto_lista,", ") .. "}")
+      end
+      if (next(userdata.hivatkozasgyujto_lista) ~= nil and next(userdata.bibrefgyujto_lista) ~= nil) then
+        context("\\quad")
+      end
+      if next(userdata.bibrefgyujto_lista) ~= nil then
+        context("$\\rightarrow$~{\\tfx\\em " .. table.concat(userdata.  bibrefgyujto_lista,", ") .. "}")
+      end
       userdata.hivatkozasgyujto_torol()
     end
+
   end
+
 \stopluacode
 
 
@@ -244,6 +265,7 @@
 %\def\lasd#1{\inouter{\em #1}}
 \unprotect
 \define[1]\lasd{\ctxlua{userdata.hivatkozasgyujto_ad(\!!bs#1\!!es)}}
+\define[1]\bibref{\ctxlua{userdata.bibrefgyujto_ad(\!!bs#1\!!es)}}
 \protect
 
 \setupindenting[no]
@@ -251,11 +273,20 @@
 
 \definetabulate[Bib][|lw(2em)|p|]
 
+\define[2]\bib
+{\startBib
+\NC #1
+\NC #2
+\NC\NR
+\stopBib
+}
+
 \define[3]\Bib
 {\startBib
 \NC #1
 \NC #2
-\emptylines[1]
+\hfill\break
+%\emptylines[1]
 #3
 \NC\NR
 \stopBib
