@@ -72,7 +72,7 @@
 
 \setuphead[Szo][%S
   number=no,%
-  before=\relax,% ez kell, hogy ne legyen üres tér a szavakat megelőzően
+  %before=\relax,% ez kell, hogy ne legyen üres tér a szavakat megelőzően
   %indentnext=no,% ez sem képes megakadályozni, a sortörést, ha a programkódban ki van hagyva egy sor
   %aligntitle=float,
   %command=\MyChapter,
@@ -276,7 +276,7 @@
 \define[2]\bib
 {\startBib
 \NC #1
-\NC #2
+\NC {\em #2}
 \NC\NR
 \stopBib
 }
@@ -284,7 +284,7 @@
 \define[3]\Bib
 {\startBib
 \NC #1
-\NC #2
+\NC {\em #2}
 \hfill\break
 %\emptylines[1]
 #3

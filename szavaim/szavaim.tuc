@@ -56,6 +56,11 @@ utilitydata.job.structure.collected={
         },
         {
          ["branches"]={},
+         ["name"]="isten",
+         ["type"]="component",
+        },
+        {
+         ["branches"]={},
          ["name"]="bibliografia",
          ["type"]="component",
         },
@@ -138,7 +143,34 @@ utilitydata.job.positions.collected={
   [135]={
    ["x"]=3521443,
   },
-  [139]={
+  [140]={
+   ["x"]=3521443,
+  },
+  [145]={
+   ["x"]=3521443,
+  },
+  [149]={
+   ["x"]=3521443,
+  },
+  [152]={
+   ["x"]=3521443,
+  },
+  [155]={
+   ["x"]=3521443,
+  },
+  [159]={
+   ["x"]=3521443,
+  },
+  [164]={
+   ["x"]=3521443,
+  },
+  [168]={
+   ["x"]=3521443,
+  },
+  [172]={
+   ["x"]=3521443,
+  },
+  [177]={
    ["x"]=3521443,
   },
  },
@@ -148,7 +180,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=1,
   ["x"]=3521443,
-  ["y"]=22371694,
+  ["y"]=21663199,
  },
  ["p:10"]={
   ["d"]=177124,
@@ -156,7 +188,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=2,
   ["x"]=3521443,
-  ["y"]=6784804,
+  ["y"]=6076309,
  },
  ["p:11"]={
   ["d"]=177124,
@@ -164,7 +196,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=3,
   ["x"]=3521443,
-  ["y"]=25205674,
+  ["y"]=24497179,
  },
  ["p:12"]={
   ["d"]=177124,
@@ -172,7 +204,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=3,
   ["x"]=3521443,
-  ["y"]=23080189,
+  ["y"]=22371694,
  },
  ["p:13"]={
   ["d"]=177124,
@@ -180,7 +212,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=3,
   ["x"]=3521443,
-  ["y"]=17412229,
+  ["y"]=16703734,
  },
  ["p:14"]={
   ["d"]=177124,
@@ -188,7 +220,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=3,
   ["x"]=3521443,
-  ["y"]=13869754,
+  ["y"]=13161259,
  },
  ["p:15"]={
   ["d"]=177124,
@@ -196,7 +228,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=3,
   ["x"]=3521443,
-  ["y"]=12452764,
+  ["y"]=11744269,
  },
  ["p:16"]={
   ["d"]=177124,
@@ -204,7 +236,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=3,
   ["x"]=3521443,
-  ["y"]=7493299,
+  ["y"]=6784804,
  },
  ["p:17"]={
   ["d"]=177124,
@@ -212,7 +244,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=4,
   ["x"]=3521443,
-  ["y"]=26622664,
+  ["y"]=25914169,
  },
  ["p:18"]={
   ["d"]=177124,
@@ -220,7 +252,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=4,
   ["x"]=3521443,
-  ["y"]=21663199,
+  ["y"]=20954704,
  },
  ["p:19"]={
   ["d"]=177124,
@@ -228,7 +260,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=4,
   ["x"]=3521443,
-  ["y"]=19537714,
+  ["y"]=18829219,
  },
  ["p:2"]={
   ["d"]=177124,
@@ -236,7 +268,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=1,
   ["x"]=3521443,
-  ["y"]=20246209,
+  ["y"]=19537714,
  },
  ["p:20"]={
   ["d"]=177124,
@@ -244,7 +276,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=4,
   ["x"]=3521443,
-  ["y"]=17412229,
+  ["y"]=15995239,
  },
  ["p:21"]={
   ["d"]=177124,
@@ -260,7 +292,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=4,
   ["x"]=3521443,
-  ["y"]=11035774,
+  ["y"]=9618784,
  },
  ["p:23"]={
   ["d"]=177124,
@@ -268,7 +300,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=4,
   ["x"]=3521443,
-  ["y"]=10327279,
+  ["y"]=8201794,
  },
  ["p:24"]={
   ["d"]=177124,
@@ -276,7 +308,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=4,
   ["x"]=3521443,
-  ["y"]=9618784,
+  ["y"]=6784804,
  },
  ["p:25"]={
   ["d"]=177124,
@@ -284,23 +316,39 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=4,
   ["x"]=3521443,
-  ["y"]=8910289,
+  ["y"]=4659319,
  },
  ["p:26"]={
   ["d"]=177124,
   ["h"]=531371,
   ["hs"]=15146802,
-  ["p"]=4,
+  ["p"]=5,
   ["x"]=3521443,
-  ["y"]=8201794,
+  ["y"]=25205674,
  },
  ["p:27"]={
   ["d"]=177124,
   ["h"]=531371,
   ["hs"]=15146802,
-  ["p"]=4,
+  ["p"]=5,
   ["x"]=3521443,
-  ["y"]=7493299,
+  ["y"]=23080189,
+ },
+ ["p:28"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=20954704,
+ },
+ ["p:29"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=18120724,
  },
  ["p:3"]={
   ["d"]=177124,
@@ -308,7 +356,87 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=1,
   ["x"]=3521443,
-  ["y"]=15286744,
+  ["y"]=14578249,
+ },
+ ["p:30"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=11035774,
+ },
+ ["p:31"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=10327279,
+ },
+ ["p:32"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=9618784,
+ },
+ ["p:33"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=8910289,
+ },
+ ["p:34"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=8201794,
+ },
+ ["p:35"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=7493299,
+ },
+ ["p:36"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=6784804,
+ },
+ ["p:37"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=6076309,
+ },
+ ["p:38"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=5367814,
+ },
+ ["p:39"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=5,
+  ["x"]=3521443,
+  ["y"]=4659319,
  },
  ["p:4"]={
   ["d"]=177124,
@@ -316,7 +444,87 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=1,
   ["x"]=3521443,
-  ["y"]=12452764,
+  ["y"]=11744269,
+ },
+ ["p:40"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=26622664,
+ },
+ ["p:41"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=25914169,
+ },
+ ["p:42"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=25205674,
+ },
+ ["p:43"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=24497179,
+ },
+ ["p:44"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=23788684,
+ },
+ ["p:45"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=23080189,
+ },
+ ["p:46"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=22371694,
+ },
+ ["p:47"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=21663199,
+ },
+ ["p:48"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=20954704,
+ },
+ ["p:49"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=20246209,
  },
  ["p:5"]={
   ["d"]=177124,
@@ -324,15 +532,79 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=1,
   ["x"]=3521443,
-  ["y"]=8201794,
+  ["y"]=7493299,
+ },
+ ["p:50"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=19537714,
+ },
+ ["p:51"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=18829219,
+ },
+ ["p:52"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=18120724,
+ },
+ ["p:53"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=17412229,
+ },
+ ["p:54"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=16703734,
+ },
+ ["p:55"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=15995239,
+ },
+ ["p:56"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=15286744,
+ },
+ ["p:57"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=14578249,
  },
  ["p:6"]={
   ["d"]=177124,
   ["h"]=531371,
   ["hs"]=15146802,
-  ["p"]=1,
+  ["p"]=2,
   ["x"]=3521443,
-  ["y"]=4659319,
+  ["y"]=26622664,
  },
  ["p:7"]={
   ["d"]=177124,
@@ -340,7 +612,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=2,
   ["x"]=3521443,
-  ["y"]=23080189,
+  ["y"]=22371694,
  },
  ["p:8"]={
   ["d"]=177124,
@@ -348,7 +620,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=2,
   ["x"]=3521443,
-  ["y"]=16703734,
+  ["y"]=15995239,
  },
  ["p:9"]={
   ["d"]=177124,
@@ -356,7 +628,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=2,
   ["x"]=3521443,
-  ["y"]=11035774,
+  ["y"]=10327279,
  },
  ["page:1"]={
   ["h"]=30394280,
@@ -390,6 +662,20 @@ utilitydata.job.positions.collected={
   ["x"]=3521443,
   ["y"]=4433831,
  },
+ ["text:5"]={
+  ["h"]=22720204,
+  ["p"]=5,
+  ["w"]=15146802,
+  ["x"]=3521443,
+  ["y"]=4433831,
+ },
+ ["text:6"]={
+  ["h"]=22720204,
+  ["p"]=6,
+  ["w"]=15146802,
+  ["x"]=3521443,
+  ["y"]=4433831,
+ },
 }
 
 if not utilitydata.job then utilitydata.job = { } end
@@ -408,7 +694,7 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
 
 utilitydata.job.pagestates.collected={
- ["margintext"]={ 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4 },
+ ["margintext"]={ 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5 },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -428,7 +714,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["SzoBekSzam"]={
-  { 0, 20 },
+  { 0, 20, 9 },
  },
  ["chemical"]={
   { 0 },
@@ -464,7 +750,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["realpage"]={
-  { 4 },
+  { 6 },
  },
  ["subpage"]={
   { 1 },
@@ -476,7 +762,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["userpage"]={
-  { 4 },
+  { 6 },
  },
 }
 
@@ -511,7 +797,7 @@ utilitydata.structures.lists.collected={
    ["reference"]="szo:Isten",
    ["section"]=1,
    ["x"]=3521443,
-   ["y"]=23611560,
+   ["y"]=22903065,
   },
   ["titledata"]={
    ["label"]="section",
@@ -519,16 +805,34 @@ utilitydata.structures.lists.collected={
   },
  },
  {
+  ["metadata"]=4,
+  ["numberdata"]=8,
+  ["references"]={
+   ["block"]="bodypart",
+   ["component"]="isten",
+   ["internal"]=43,
+   ["realpage"]=4,
+   ["reference"]="szo:rekurzivitás",
+   ["section"]=2,
+   ["x"]=3521443,
+   ["y"]=12984135,
+  },
+  ["titledata"]={
+   ["label"]="section",
+   ["title"]="Rekurzivitás",
+  },
+ },
+ {
   ["metadata"]=1,
-  ["numberdata"]=6,
+  ["numberdata"]=8,
   ["references"]={
    ["block"]="bodypart",
    ["component"]="bibliografia",
-   ["internal"]=43,
-   ["realpage"]=4,
-   ["section"]=1,
+   ["internal"]=62,
+   ["realpage"]=5,
+   ["section"]=2,
    ["x"]=3521443,
-   ["y"]=12984135,
+   ["y"]=12275640,
   },
   ["titledata"]={
    ["label"]="section",
@@ -544,29 +848,43 @@ utilitydata.structures.pages.collected={
  {
   ["block"]="bodypart",
   ["number"]=1,
-  ["numberdata"]=7,
-  ["prefixdata"]=8,
+  ["numberdata"]=9,
+  ["prefixdata"]=10,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=2,
-  ["numberdata"]=7,
-  ["prefixdata"]=8,
+  ["numberdata"]=9,
+  ["prefixdata"]=10,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=3,
-  ["numberdata"]=7,
-  ["prefixdata"]=8,
+  ["numberdata"]=9,
+  ["prefixdata"]=10,
   ["state"]="start",
  },
  {
   ["block"]="bodypart",
   ["number"]=4,
-  ["numberdata"]=7,
-  ["prefixdata"]=8,
+  ["numberdata"]=9,
+  ["prefixdata"]=10,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=5,
+  ["numberdata"]=9,
+  ["prefixdata"]=10,
+  ["state"]="start",
+ },
+ {
+  ["block"]="bodypart",
+  ["number"]=6,
+  ["numberdata"]=9,
+  ["prefixdata"]=10,
   ["state"]="start",
  },
 }
@@ -580,7 +898,7 @@ utilitydata.structures.references.collected={
    ["entries"]={
     ["text"]="Isten.1",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=3,
@@ -590,14 +908,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=22371694,
+    ["y"]=21663199,
    },
   },
   ["Bek:Isten:10"]={
    ["entries"]={
     ["text"]="Isten.10",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=21,
@@ -607,14 +925,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=6784804,
+    ["y"]=6076309,
    },
   },
   ["Bek:Isten:11"]={
    ["entries"]={
     ["text"]="Isten.11",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=23,
@@ -624,14 +942,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=25205674,
+    ["y"]=24497179,
    },
   },
   ["Bek:Isten:12"]={
    ["entries"]={
     ["text"]="Isten.12",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=25,
@@ -641,14 +959,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=23080189,
+    ["y"]=22371694,
    },
   },
   ["Bek:Isten:13"]={
    ["entries"]={
     ["text"]="Isten.13",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=27,
@@ -658,14 +976,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=17412229,
+    ["y"]=16703734,
    },
   },
   ["Bek:Isten:14"]={
    ["entries"]={
     ["text"]="Isten.14",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=29,
@@ -675,14 +993,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=13869754,
+    ["y"]=13161259,
    },
   },
   ["Bek:Isten:15"]={
    ["entries"]={
     ["text"]="Isten.15",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=31,
@@ -692,14 +1010,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=12452764,
+    ["y"]=11744269,
    },
   },
   ["Bek:Isten:16"]={
    ["entries"]={
     ["text"]="Isten.16",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=33,
@@ -709,14 +1027,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=7493299,
+    ["y"]=6784804,
    },
   },
   ["Bek:Isten:17"]={
    ["entries"]={
     ["text"]="Isten.17",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=35,
@@ -726,14 +1044,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=26622664,
+    ["y"]=25914169,
    },
   },
   ["Bek:Isten:18"]={
    ["entries"]={
     ["text"]="Isten.18",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=37,
@@ -743,14 +1061,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=21663199,
+    ["y"]=20954704,
    },
   },
   ["Bek:Isten:19"]={
    ["entries"]={
     ["text"]="Isten.19",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=39,
@@ -760,14 +1078,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=19537714,
+    ["y"]=18829219,
    },
   },
   ["Bek:Isten:2"]={
    ["entries"]={
     ["text"]="Isten.2",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=5,
@@ -777,14 +1095,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=20246209,
+    ["y"]=19537714,
    },
   },
   ["Bek:Isten:20"]={
    ["entries"]={
     ["text"]="Isten.20",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=41,
@@ -794,14 +1112,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=17412229,
+    ["y"]=15995239,
    },
   },
   ["Bek:Isten:3"]={
    ["entries"]={
     ["text"]="Isten.3",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=7,
@@ -811,14 +1129,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=15286744,
+    ["y"]=14578249,
    },
   },
   ["Bek:Isten:4"]={
    ["entries"]={
     ["text"]="Isten.4",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=9,
@@ -828,14 +1146,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=12452764,
+    ["y"]=11744269,
    },
   },
   ["Bek:Isten:5"]={
    ["entries"]={
     ["text"]="Isten.5",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=11,
@@ -845,31 +1163,31 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=8201794,
+    ["y"]=7493299,
    },
   },
   ["Bek:Isten:6"]={
    ["entries"]={
     ["text"]="Isten.6",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=13,
     ["prefix"]="isten",
-    ["realpage"]=1,
+    ["realpage"]=2,
     ["reference"]="Bek:Isten:6",
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=4659319,
+    ["y"]=26622664,
    },
   },
   ["Bek:Isten:7"]={
    ["entries"]={
     ["text"]="Isten.7",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=15,
@@ -879,14 +1197,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=23080189,
+    ["y"]=22371694,
    },
   },
   ["Bek:Isten:8"]={
    ["entries"]={
     ["text"]="Isten.8",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=17,
@@ -896,14 +1214,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=16703734,
+    ["y"]=15995239,
    },
   },
   ["Bek:Isten:9"]={
    ["entries"]={
     ["text"]="Isten.9",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=19,
@@ -913,14 +1231,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=11035774,
+    ["y"]=10327279,
    },
   },
   ["Bek:Isten:atya"]={
    ["entries"]={
     ["text"]="Isten.7",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=16,
@@ -930,31 +1248,31 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=23080189,
+    ["y"]=22371694,
    },
   },
   ["Bek:Isten:bent_es_kint"]={
    ["entries"]={
     ["text"]="Isten.6",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=14,
     ["prefix"]="isten",
-    ["realpage"]=1,
+    ["realpage"]=2,
     ["reference"]="Bek:Isten:bent_es_kint",
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=4659319,
+    ["y"]=26622664,
    },
   },
   ["Bek:Isten:egyszeru_elet"]={
    ["entries"]={
     ["text"]="Isten.12",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=26,
@@ -964,14 +1282,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=23080189,
+    ["y"]=22371694,
    },
   },
   ["Bek:Isten:fenybe"]={
    ["entries"]={
     ["text"]="Isten.15",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=32,
@@ -981,14 +1299,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=12452764,
+    ["y"]=11744269,
    },
   },
   ["Bek:Isten:fiu"]={
    ["entries"]={
     ["text"]="Isten.8",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=18,
@@ -998,14 +1316,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=16703734,
+    ["y"]=15995239,
    },
   },
   ["Bek:Isten:himnusz"]={
    ["entries"]={
     ["text"]="Isten.19",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=40,
@@ -1015,14 +1333,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=19537714,
+    ["y"]=18829219,
    },
   },
   ["Bek:Isten:lefele_ne_tovabb"]={
    ["entries"]={
     ["text"]="Isten.18",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=38,
@@ -1032,14 +1350,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=21663199,
+    ["y"]=20954704,
    },
   },
   ["Bek:Isten:mintazat"]={
    ["entries"]={
     ["text"]="Isten.5",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=12,
@@ -1049,14 +1367,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=8201794,
+    ["y"]=7493299,
    },
   },
   ["Bek:Isten:oles_beavatkozas"]={
    ["entries"]={
     ["text"]="Isten.11",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=24,
@@ -1066,14 +1384,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=25205674,
+    ["y"]=24497179,
    },
   },
   ["Bek:Isten:orok_es_mindenhato"]={
    ["entries"]={
     ["text"]="Isten.1",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=4,
@@ -1083,14 +1401,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=22371694,
+    ["y"]=21663199,
    },
   },
   ["Bek:Isten:pusztitas_okkal"]={
    ["entries"]={
     ["text"]="Isten.10",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=22,
@@ -1100,14 +1418,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=6784804,
+    ["y"]=6076309,
    },
   },
   ["Bek:Isten:rekurzivitasa"]={
    ["entries"]={
     ["text"]="Isten.4",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=10,
@@ -1117,14 +1435,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=12452764,
+    ["y"]=11744269,
    },
   },
   ["Bek:Isten:rossz"]={
    ["entries"]={
     ["text"]="Isten.13",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=28,
@@ -1134,14 +1452,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=17412229,
+    ["y"]=16703734,
    },
   },
   ["Bek:Isten:sors"]={
    ["entries"]={
     ["text"]="Isten.20",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=42,
@@ -1151,14 +1469,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=17412229,
+    ["y"]=15995239,
    },
   },
   ["Bek:Isten:sorscsapasok"]={
    ["entries"]={
     ["text"]="Isten.17",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=36,
@@ -1168,14 +1486,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=26622664,
+    ["y"]=25914169,
    },
   },
   ["Bek:Isten:sotetsegbe"]={
    ["entries"]={
     ["text"]="Isten.16",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=34,
@@ -1185,14 +1503,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=7493299,
+    ["y"]=6784804,
    },
   },
   ["Bek:Isten:szamossaga"]={
    ["entries"]={
     ["text"]="Isten.3",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=8,
@@ -1202,14 +1520,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=15286744,
+    ["y"]=14578249,
    },
   },
   ["Bek:Isten:szeret_es_eltet"]={
    ["entries"]={
     ["text"]="Isten.2",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=6,
@@ -1219,14 +1537,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=20246209,
+    ["y"]=19537714,
    },
   },
   ["Bek:Isten:valasztas"]={
    ["entries"]={
     ["text"]="Isten.14",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=30,
@@ -1236,14 +1554,14 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=13869754,
+    ["y"]=13161259,
    },
   },
   ["Bek:Isten:viszonya"]={
    ["entries"]={
     ["text"]="Isten.9",
    },
-   ["metadata"]=9,
+   ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
     ["internal"]=20,
@@ -1253,7 +1571,313 @@ utilitydata.structures.references.collected={
     ["section"]=1,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=11035774,
+    ["y"]=10327279,
+   },
+  },
+  ["Bek:Rekurzivitás:1"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.1",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=44,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:1",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=11744269,
+   },
+  },
+  ["Bek:Rekurzivitás:2"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.2",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=46,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:2",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=9618784,
+   },
+  },
+  ["Bek:Rekurzivitás:3"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.3",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=48,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:3",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=8201794,
+   },
+  },
+  ["Bek:Rekurzivitás:4"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.4",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=50,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:4",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=6784804,
+   },
+  },
+  ["Bek:Rekurzivitás:5"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.5",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=52,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:5",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=4659319,
+   },
+  },
+  ["Bek:Rekurzivitás:6"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.6",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=54,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Rekurzivitás:6",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=25205674,
+   },
+  },
+  ["Bek:Rekurzivitás:7"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.7",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=56,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Rekurzivitás:7",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=23080189,
+   },
+  },
+  ["Bek:Rekurzivitás:8"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.8",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=58,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Rekurzivitás:8",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=20954704,
+   },
+  },
+  ["Bek:Rekurzivitás:9"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.9",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=60,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Rekurzivitás:9",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=18120724,
+   },
+  },
+  ["Bek:Rekurzivitás:betegség"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.8",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=59,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Rekurzivitás:betegség",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=20954704,
+   },
+  },
+  ["Bek:Rekurzivitás:bóly példa"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.4",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=51,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:bóly példa",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=6784804,
+   },
+  },
+  ["Bek:Rekurzivitás:emberbolygó példa"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.6",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=55,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Rekurzivitás:emberbolygó példa",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=25205674,
+   },
+  },
+  ["Bek:Rekurzivitás:fentlent"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.1",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=45,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:fentlent",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=11744269,
+   },
+  },
+  ["Bek:Rekurzivitás:gaia példa"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.7",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=57,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Rekurzivitás:gaia példa",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=23080189,
+   },
+  },
+  ["Bek:Rekurzivitás:galaxis példa"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.3",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=49,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:galaxis példa",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=8201794,
+   },
+  },
+  ["Bek:Rekurzivitás:isten_altal"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.2",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=47,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:isten_altal",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=9618784,
+   },
+  },
+  ["Bek:Rekurzivitás:vertikális hasonlóság"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.9",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=61,
+    ["prefix"]="isten",
+    ["realpage"]=5,
+    ["reference"]="Bek:Rekurzivitás:vertikális hasonlóság",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=18120724,
+   },
+  },
+  ["Bek:Rekurzivitás:írisz példa"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.5",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=53,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:írisz példa",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=4659319,
    },
   },
  },
@@ -1341,6 +1965,16 @@ utilitydata.job.packed={
    ["hidenumber"]=true,
    ["language"]="hu",
    ["numbers"]=5,
+   ["separatorset"]="default",
+   ["set"]="all",
+  },
+  { 0, 0, 2 },
+  {
+   ["block"]="bodypart",
+   ["conversionset"]="default",
+   ["hidenumber"]=true,
+   ["language"]="hu",
+   ["numbers"]=7,
    ["separatorset"]="default",
    ["set"]="all",
   },
