@@ -51,7 +51,7 @@
 
 \setuphead[Szo][%S
   number=no,%
-  %before=\relax,% ez kell, hogy ne legyen üres tér a szavakat megelőzően
+  before=\relax,% ez kell, hogy ne legyen üres tér a szavakat megelőzően
   %indentnext=no,% ez sem képes megakadályozni, a sortörést, ha a programkódban ki van hagyva egy sor
   %aligntitle=float,
   %command=\MyChapter,
@@ -248,4 +248,20 @@
 
 \setupindenting[no]
 
-\stopenvironment
+
+\definetabulate[Bib][|lw(2em)|p|]
+
+\define[3]\Bib
+{\startBib
+\NC #1
+\NC #2
+\emptylines[1]
+#3
+\NC\NR
+\stopBib
+}
+
+% Így lehet nagy betűs szöveget írni az első bekezdés elé
+%\placefigure
+%[left,none,high,low]{}
+%{\framed[height=1cm]{Isten}}
