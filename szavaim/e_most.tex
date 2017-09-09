@@ -23,15 +23,22 @@
 
   function userdata.hivatkozasgyujto_ki()
     if (next(userdata.hivatkozasgyujto_lista) ~= nil or next(userdata.bibrefgyujto_lista) ~= nil) then
-      context("\\quad")
+      for key, value in ipairs(userdata.hivatkozasgyujto_lista) do
+        userdata.hivatkozasgyujto_lista[key] = "\\hbox{" .. value .. "}"
+      end
+      for key, value in ipairs(userdata.bibrefgyujto_lista) do
+        userdata.bibrefgyujto_lista[key] = "\\hbox{" .. value .. "}"
+        print(userdata.bibrefgyujto_lista[key])
+      end
+      context("\\quad\\hfill")
       if next(userdata.hivatkozasgyujto_lista) ~= nil then
-        context("$\\parallel$~{\\tfx\\em " .. table.concat(userdata.  hivatkozasgyujto_lista,", ") .. "}")
+        context("$\\parallel$~{\\tfx\\em " .. table.concat(userdata.  hivatkozasgyujto_lista,"; ") .. "}")
       end
       if (next(userdata.hivatkozasgyujto_lista) ~= nil and next(userdata.bibrefgyujto_lista) ~= nil) then
         context("\\quad")
       end
       if next(userdata.bibrefgyujto_lista) ~= nil then
-        context("$\\rightarrow$~{\\tfx\\em " .. table.concat(userdata.  bibrefgyujto_lista,", ") .. "}")
+        context("$\\tfx\\rightarrow$~{\\tfx\\em " .. table.concat(userdata.  bibrefgyujto_lista,"; ") .. "}")
       end
       userdata.hivatkozasgyujto_torol()
     end

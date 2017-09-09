@@ -164,13 +164,10 @@ utilitydata.job.positions.collected={
   [164]={
    ["x"]=3521443,
   },
-  [168]={
+  [169]={
    ["x"]=3521443,
   },
-  [172]={
-   ["x"]=3521443,
-  },
-  [177]={
+  [176]={
    ["x"]=3521443,
   },
  },
@@ -332,7 +329,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=23080189,
+  ["y"]=22371694,
  },
  ["p:28"]={
   ["d"]=177124,
@@ -340,7 +337,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=20954704,
+  ["y"]=18120724,
  },
  ["p:29"]={
   ["d"]=177124,
@@ -348,7 +345,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=18120724,
+  ["y"]=8910289,
  },
  ["p:3"]={
   ["d"]=177124,
@@ -364,7 +361,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=11035774,
+  ["y"]=8201794,
  },
  ["p:31"]={
   ["d"]=177124,
@@ -372,7 +369,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=10327279,
+  ["y"]=7493299,
  },
  ["p:32"]={
   ["d"]=177124,
@@ -380,7 +377,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=9618784,
+  ["y"]=6784804,
  },
  ["p:33"]={
   ["d"]=177124,
@@ -388,7 +385,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=8910289,
+  ["y"]=6076309,
  },
  ["p:34"]={
   ["d"]=177124,
@@ -396,7 +393,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=8201794,
+  ["y"]=5367814,
  },
  ["p:35"]={
   ["d"]=177124,
@@ -404,39 +401,39 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=5,
   ["x"]=3521443,
-  ["y"]=7493299,
+  ["y"]=4659319,
  },
  ["p:36"]={
   ["d"]=177124,
   ["h"]=531371,
   ["hs"]=15146802,
-  ["p"]=5,
+  ["p"]=6,
   ["x"]=3521443,
-  ["y"]=6784804,
+  ["y"]=26622664,
  },
  ["p:37"]={
   ["d"]=177124,
   ["h"]=531371,
   ["hs"]=15146802,
-  ["p"]=5,
+  ["p"]=6,
   ["x"]=3521443,
-  ["y"]=6076309,
+  ["y"]=25914169,
  },
  ["p:38"]={
   ["d"]=177124,
   ["h"]=531371,
   ["hs"]=15146802,
-  ["p"]=5,
+  ["p"]=6,
   ["x"]=3521443,
-  ["y"]=5367814,
+  ["y"]=25205674,
  },
  ["p:39"]={
   ["d"]=177124,
   ["h"]=531371,
   ["hs"]=15146802,
-  ["p"]=5,
+  ["p"]=6,
   ["x"]=3521443,
-  ["y"]=4659319,
+  ["y"]=24497179,
  },
  ["p:4"]={
   ["d"]=177124,
@@ -452,7 +449,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=26622664,
+  ["y"]=23788684,
  },
  ["p:41"]={
   ["d"]=177124,
@@ -460,7 +457,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=25914169,
+  ["y"]=23080189,
  },
  ["p:42"]={
   ["d"]=177124,
@@ -468,7 +465,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=25205674,
+  ["y"]=22371694,
  },
  ["p:43"]={
   ["d"]=177124,
@@ -476,7 +473,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=24497179,
+  ["y"]=21663199,
  },
  ["p:44"]={
   ["d"]=177124,
@@ -484,7 +481,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=23788684,
+  ["y"]=20954704,
  },
  ["p:45"]={
   ["d"]=177124,
@@ -492,7 +489,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=23080189,
+  ["y"]=20246209,
  },
  ["p:46"]={
   ["d"]=177124,
@@ -500,7 +497,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=22371694,
+  ["y"]=19537714,
  },
  ["p:47"]={
   ["d"]=177124,
@@ -508,7 +505,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=21663199,
+  ["y"]=18829219,
  },
  ["p:48"]={
   ["d"]=177124,
@@ -516,7 +513,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=20954704,
+  ["y"]=18120724,
  },
  ["p:49"]={
   ["d"]=177124,
@@ -524,7 +521,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=20246209,
+  ["y"]=17412229,
  },
  ["p:5"]={
   ["d"]=177124,
@@ -540,7 +537,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=19537714,
+  ["y"]=16703734,
  },
  ["p:51"]={
   ["d"]=177124,
@@ -548,7 +545,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=18829219,
+  ["y"]=15995239,
  },
  ["p:52"]={
   ["d"]=177124,
@@ -556,7 +553,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=18120724,
+  ["y"]=15286744,
  },
  ["p:53"]={
   ["d"]=177124,
@@ -564,7 +561,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=17412229,
+  ["y"]=14578249,
  },
  ["p:54"]={
   ["d"]=177124,
@@ -572,7 +569,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=16703734,
+  ["y"]=13869754,
  },
  ["p:55"]={
   ["d"]=177124,
@@ -580,7 +577,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=15995239,
+  ["y"]=13161259,
  },
  ["p:56"]={
   ["d"]=177124,
@@ -588,7 +585,7 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=15286744,
+  ["y"]=12452764,
  },
  ["p:57"]={
   ["d"]=177124,
@@ -596,7 +593,23 @@ utilitydata.job.positions.collected={
   ["hs"]=15146802,
   ["p"]=6,
   ["x"]=3521443,
-  ["y"]=14578249,
+  ["y"]=11744269,
+ },
+ ["p:58"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=11035774,
+ },
+ ["p:59"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=10327279,
  },
  ["p:6"]={
   ["d"]=177124,
@@ -605,6 +618,22 @@ utilitydata.job.positions.collected={
   ["p"]=2,
   ["x"]=3521443,
   ["y"]=26622664,
+ },
+ ["p:60"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=9618784,
+ },
+ ["p:61"]={
+  ["d"]=177124,
+  ["h"]=531371,
+  ["hs"]=15146802,
+  ["p"]=6,
+  ["x"]=3521443,
+  ["y"]=8910289,
  },
  ["p:7"]={
   ["d"]=177124,
@@ -694,7 +723,7 @@ if not utilitydata.job then utilitydata.job = { } end
 if not utilitydata.job.pagestates then utilitydata.job.pagestates = { } end
 
 utilitydata.job.pagestates.collected={
- ["margintext"]={ 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5, 5 },
+ ["margintext"]={ 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 4, 4, 4, 4, 4, 4, 5, 5, 5 },
 }
 
 if not utilitydata.structures then utilitydata.structures = { } end
@@ -714,7 +743,7 @@ utilitydata.structures.counters.collected={
   { 0 },
  },
  ["SzoBekSzam"]={
-  { 0, 20, 9 },
+  { 0, 20, 8 },
  },
  ["chemical"]={
   { 0 },
@@ -828,11 +857,11 @@ utilitydata.structures.lists.collected={
   ["references"]={
    ["block"]="bodypart",
    ["component"]="bibliografia",
-   ["internal"]=62,
+   ["internal"]=60,
    ["realpage"]=5,
    ["section"]=2,
    ["x"]=3521443,
-   ["y"]=12275640,
+   ["y"]=10150155,
   },
   ["titledata"]={
    ["label"]="section",
@@ -1690,7 +1719,7 @@ utilitydata.structures.references.collected={
     ["section"]=2,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=23080189,
+    ["y"]=22371694,
    },
   },
   ["Bek:Rekurzivitás:8"]={
@@ -1707,44 +1736,27 @@ utilitydata.structures.references.collected={
     ["section"]=2,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=20954704,
-   },
-  },
-  ["Bek:Rekurzivitás:9"]={
-   ["entries"]={
-    ["text"]="Rekurzivitás.9",
-   },
-   ["metadata"]=11,
-   ["references"]={
-    ["block"]="bodypart",
-    ["internal"]=60,
-    ["prefix"]="isten",
-    ["realpage"]=5,
-    ["reference"]="Bek:Rekurzivitás:9",
-    ["section"]=2,
-    ["view"]="fit",
-    ["x"]=3521443,
     ["y"]=18120724,
    },
   },
-  ["Bek:Rekurzivitás:betegség"]={
+  ["Bek:Rekurzivitás:betegseg"]={
    ["entries"]={
-    ["text"]="Rekurzivitás.8",
+    ["text"]="Rekurzivitás.7",
    },
    ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
-    ["internal"]=59,
+    ["internal"]=57,
     ["prefix"]="isten",
     ["realpage"]=5,
-    ["reference"]="Bek:Rekurzivitás:betegség",
+    ["reference"]="Bek:Rekurzivitás:betegseg",
     ["section"]=2,
     ["view"]="fit",
     ["x"]=3521443,
-    ["y"]=20954704,
+    ["y"]=22371694,
    },
   },
-  ["Bek:Rekurzivitás:bóly példa"]={
+  ["Bek:Rekurzivitás:boly_pelda"]={
    ["entries"]={
     ["text"]="Rekurzivitás.4",
    },
@@ -1754,14 +1766,14 @@ utilitydata.structures.references.collected={
     ["internal"]=51,
     ["prefix"]="isten",
     ["realpage"]=4,
-    ["reference"]="Bek:Rekurzivitás:bóly példa",
+    ["reference"]="Bek:Rekurzivitás:boly_pelda",
     ["section"]=2,
     ["view"]="fit",
     ["x"]=3521443,
     ["y"]=6784804,
    },
   },
-  ["Bek:Rekurzivitás:emberbolygó példa"]={
+  ["Bek:Rekurzivitás:emberbolygo_pelda"]={
    ["entries"]={
     ["text"]="Rekurzivitás.6",
    },
@@ -1771,7 +1783,7 @@ utilitydata.structures.references.collected={
     ["internal"]=55,
     ["prefix"]="isten",
     ["realpage"]=5,
-    ["reference"]="Bek:Rekurzivitás:emberbolygó példa",
+    ["reference"]="Bek:Rekurzivitás:emberbolygo_pelda",
     ["section"]=2,
     ["view"]="fit",
     ["x"]=3521443,
@@ -1795,24 +1807,7 @@ utilitydata.structures.references.collected={
     ["y"]=11744269,
    },
   },
-  ["Bek:Rekurzivitás:gaia példa"]={
-   ["entries"]={
-    ["text"]="Rekurzivitás.7",
-   },
-   ["metadata"]=11,
-   ["references"]={
-    ["block"]="bodypart",
-    ["internal"]=57,
-    ["prefix"]="isten",
-    ["realpage"]=5,
-    ["reference"]="Bek:Rekurzivitás:gaia példa",
-    ["section"]=2,
-    ["view"]="fit",
-    ["x"]=3521443,
-    ["y"]=23080189,
-   },
-  },
-  ["Bek:Rekurzivitás:galaxis példa"]={
+  ["Bek:Rekurzivitás:galaxis_pelda"]={
    ["entries"]={
     ["text"]="Rekurzivitás.3",
    },
@@ -1822,11 +1817,28 @@ utilitydata.structures.references.collected={
     ["internal"]=49,
     ["prefix"]="isten",
     ["realpage"]=4,
-    ["reference"]="Bek:Rekurzivitás:galaxis példa",
+    ["reference"]="Bek:Rekurzivitás:galaxis_pelda",
     ["section"]=2,
     ["view"]="fit",
     ["x"]=3521443,
     ["y"]=8201794,
+   },
+  },
+  ["Bek:Rekurzivitás:irisz_pelda"]={
+   ["entries"]={
+    ["text"]="Rekurzivitás.5",
+   },
+   ["metadata"]=11,
+   ["references"]={
+    ["block"]="bodypart",
+    ["internal"]=53,
+    ["prefix"]="isten",
+    ["realpage"]=4,
+    ["reference"]="Bek:Rekurzivitás:irisz_pelda",
+    ["section"]=2,
+    ["view"]="fit",
+    ["x"]=3521443,
+    ["y"]=4659319,
    },
   },
   ["Bek:Rekurzivitás:isten_altal"]={
@@ -1846,38 +1858,21 @@ utilitydata.structures.references.collected={
     ["y"]=9618784,
    },
   },
-  ["Bek:Rekurzivitás:vertikális hasonlóság"]={
+  ["Bek:Rekurzivitás:vertikalis_hasonlosag"]={
    ["entries"]={
-    ["text"]="Rekurzivitás.9",
+    ["text"]="Rekurzivitás.8",
    },
    ["metadata"]=11,
    ["references"]={
     ["block"]="bodypart",
-    ["internal"]=61,
+    ["internal"]=59,
     ["prefix"]="isten",
     ["realpage"]=5,
-    ["reference"]="Bek:Rekurzivitás:vertikális hasonlóság",
+    ["reference"]="Bek:Rekurzivitás:vertikalis_hasonlosag",
     ["section"]=2,
     ["view"]="fit",
     ["x"]=3521443,
     ["y"]=18120724,
-   },
-  },
-  ["Bek:Rekurzivitás:írisz példa"]={
-   ["entries"]={
-    ["text"]="Rekurzivitás.5",
-   },
-   ["metadata"]=11,
-   ["references"]={
-    ["block"]="bodypart",
-    ["internal"]=53,
-    ["prefix"]="isten",
-    ["realpage"]=4,
-    ["reference"]="Bek:Rekurzivitás:írisz példa",
-    ["section"]=2,
-    ["view"]="fit",
-    ["x"]=3521443,
-    ["y"]=4659319,
    },
   },
  },
