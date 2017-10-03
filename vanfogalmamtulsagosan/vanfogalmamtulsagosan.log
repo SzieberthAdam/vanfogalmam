@@ -7,10 +7,10 @@ system          >
 system          > 'cont-new.mkiv' loaded
 open source     > level 2, order 2, name 'C:/texlive/2017/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
 close source    > level 2, order 2, name 'C:/texlive/2017/texmf-dist/tex/context/base/mkiv/cont-new.mkiv'
-system          > files > jobname 'szavaim', input './szavaim', result 'szavaim'
+system          > files > jobname 'vanfogalmamtulsagosan', input './vanfogalmamtulsagosan', result 'vanfogalmamtulsagosan'
 fonts           > latin modern fonts are not preloaded
 languages       > language 'en' is active
-open source     > level 2, order 3, name 'C:/Users/adam/github/szavaim/szavaim/szavaim.tex'
+open source     > level 2, order 3, name 'C:/Users/adam/github/szavaim/vanfogalmamtulsagosan/vanfogalmamtulsagosan.tex'
 open source     > level 3, order 4, name 'e_def.tex'
 close source    > level 3, order 4, name 'e_def.tex'
 open source     > level 3, order 5, name 'e_magyar.tex'
@@ -24,7 +24,7 @@ open source     > level 3, order 8, name 'e_most.tex'
 system          > command '\bib' is already defined
 close source    > level 3, order 8, name 'e_most.tex'
 structures      > begin of sectionblock 'bodypart'
-structure       > sectioning > subject @ level 3 : 0.0.0 -> Szavaim
+structure       > sectioning > subject @ level 3 : 0.0.0 -> Van fogalmam túlságosan
 system          > jobfiles > using path: szo
 open source     > level 3, order 9, name 'szo/isten.tex'
 structure       > sectioning > Szo @ level 3 : 0.0.1 -> Isten
@@ -44,18 +44,18 @@ pages           > flushing realpage 5, userpage 5
 close source    > level 3, order 11, name 'bib.tex'
 structures      > end of sectionblock 'bodypart'
 pages           > flushing realpage 6, userpage 6
-close source    > level 2, order 11, name 'C:/Users/adam/github/szavaim/szavaim/szavaim.tex'
+close source    > level 2, order 11, name 'C:/Users/adam/github/szavaim/vanfogalmamtulsagosan/vanfogalmamtulsagosan.tex'
 close source    > level 1, order 11, name 'C:/texlive/2017/texmf-dist/tex/context/base/mkiv/cont-yes.mkiv'
 
 system          > structure > start used structure
 
-used structure  > text: szavaim
-used structure  >   project: project_szavaim
+used structure  > text: vanfogalmamtulsagosan
+used structure  >   project: project_vanfogalmamtulsagosan
 used structure  >     environment: e_def
 used structure  >     environment: e_magyar
 used structure  >     environment: e_konyv
 used structure  >     environment: e_szotaram
-used structure  >       product: szavaim
+used structure  >       product: vanfogalmamtulsagosan
 used structure  >         component: isten
 used structure  >         component: isten
 used structure  >         component: bibliografia
@@ -69,7 +69,7 @@ used file       >    1: filename=cont-yes.mkiv filetype=tex foundname=C:/texlive
 used file       >    2: filename=publ-imp-default.lua filetype=lua foundname=C:/texlive/2017/texmf-dist/tex/context/base/mkiv/publ-imp-default.lua usedmethod=database
 used file       >    3: filename=cont-new.mkiv filetype=tex foundname=C:/texlive/2017/texmf-dist/tex/context/base/mkiv/cont-new.mkiv usedmethod=database
 used file       >    4: filename=lang-us.lua filetype=lua foundname=C:/texlive/2017/texmf-dist/tex/context/patterns/mkiv/lang-us.lua usedmethod=database
-used file       >    5: filename=C:\Users\adam\github\szavaim\szavaim/szavaim.tex foundname=C:/Users/adam/github/szavaim/szavaim/szavaim.tex usedmethod=direct
+used file       >    5: filename=C:\Users\adam\github\szavaim\vanfogalmamtulsagosan/vanfogalmamtulsagosan.tex foundname=C:/Users/adam/github/szavaim/vanfogalmamtulsagosan/vanfogalmamtulsagosan.tex usedmethod=direct
 used file       >    6: filename=e_def.tex foundname=e_def.tex usedmethod=direct
 used file       >    7: filename=e_magyar.tex foundname=e_magyar.tex usedmethod=direct
 used file       >    8: filename=e_konyv.tex foundname=e_konyv.tex usedmethod=direct
@@ -90,10 +90,10 @@ system          > files > stop used files
 
 system          > options > start commandline options
 
-used option     > currentrun="1"
-used option     > fulljobname="./szavaim.tex"
-used option     > input="./szavaim.tex"
-used option     > kindofrun="1"
+used option     > currentrun="2"
+used option     > fulljobname="./vanfogalmamtulsagosan.tex"
+used option     > input="./vanfogalmamtulsagosan.tex"
+used option     > kindofrun="2"
 used option     > maxnofruns="9"
 used option     > no-parse-first-line="true"
 
@@ -101,35 +101,36 @@ system          > options > stop commandline options
 
 system          > options > start commandline files
 
-used file       >    1: ./szavaim.tex
+used file       >    1: ./vanfogalmamtulsagosan.tex
 
 system          > options > stop commandline files
 
 
 mkiv lua stats  > used config file: selfautoparent:/texmfcnf.lua;selfautoparent:/texmf-dist/web2c/texmfcnf.lua
 mkiv lua stats  > used cache path: readable+writable: 'C:/texlive/2017/texmf-var/luatex-cache/context/a86c089b384a3076dc514ba966a1fac9'
-mkiv lua stats  > resource resolver: loadtime 0.343 seconds, 1 scans with scantime 0.016 seconds, 0 shared scans, 19 found files, scanned paths: C:/Users/adam/.texlive2017/texmf-config
-mkiv lua stats  > stored bytecode data: 404 modules (1.217 sec), 91 tables (0.062 sec), 495 chunks (1.279 sec)
+mkiv lua stats  > resource resolver: loadtime 0.328 seconds, 1 scans with scantime 0.000 seconds, 0 shared scans, 19 found files, scanned paths: C:/Users/adam/.texlive2017/texmf-config
+mkiv lua stats  > stored bytecode data: 404 modules (1.092 sec), 91 tables (0.063 sec), 495 chunks (1.155 sec)
 mkiv lua stats  > traced context: maxstack: 1233, freed: 2, unreachable: 1231
 mkiv lua stats  > cleaned up reserved nodes: 49 nodes, 9 lists of 447
 mkiv lua stats  > node memory usage: 3 glue, 3 penalty, 22 attribute, 49 glue_spec, 4 attribute_list, 2 temp, 2 user_defined
-mkiv lua stats  > node list callback tasks: 7 unique task lists, 9 instances (re)created, 839 calls
+mkiv lua stats  > node list callback tasks: 7 unique task lists, 9 instances (re)created, 840 calls
 mkiv lua stats  > h-node processing time: 0.218 seconds including kernel
+mkiv lua stats  > attribute processing time: 0.016 seconds front- and backend
 mkiv lua stats  > used backend: pdf (backend for directly generating pdf output)
-mkiv lua stats  > jobdata time: 0.031 seconds saving, 0.000 seconds loading
-mkiv lua stats  > callbacks: 2194 direct, 1116 indirect, 3310 total
+mkiv lua stats  > jobdata time: 0.016 seconds saving, 0.000 seconds loading
+mkiv lua stats  > callbacks: 2195 direct, 1116 indirect, 3311 total
 mkiv lua stats  > randomizer: resumed with value 0.22031311990722
 mkiv lua stats  > positions: 62 collected, 62 regular, 0 special
 mkiv lua stats  > v-node processing time: 0.016 seconds 
 mkiv lua stats  > loaded patterns: en::2 hu::23, load time: 0.000
 mkiv lua stats  > interactive elements: 0 references, 56 destinations
-mkiv lua stats  > result saved in file: szavaim.pdf, compresslevel 3, objectcompresslevel 3
+mkiv lua stats  > result saved in file: vanfogalmamtulsagosan.pdf, compresslevel 3, objectcompresslevel 3
 mkiv lua stats  > margin data: 28 entries, 0 pending
 mkiv lua stats  > loaded fonts: 4 files: libertinusmath-regular.otf, libertinusserif-bold.otf, libertinusserif-italic.otf, libertinusserif-regular.otf
-mkiv lua stats  > font engine: otf 3.029, afm 1.512, tfm 1.000, 9 instances, 4 shared in backend, 1 common vectors, 3 common hashes, load time 0.936 seconds 
+mkiv lua stats  > font engine: otf 3.029, afm 1.512, tfm 1.000, 9 instances, 4 shared in backend, 1 common vectors, 3 common hashes, load time 0.827 seconds 
 mkiv lua stats  > used platform: mswin, type: windows, binary subtree: bin
 mkiv lua stats  > luatex banner: this is luatex, version 1.0.4 (tex live 2017/w32tex)
-mkiv lua stats  > control sequences: 45385 of 65536 + 100000
-mkiv lua stats  > lua properties: engine: lua, used memory: 68 MB (ctx: 67 MB), hash type: lua, hash chars: min(32,40), symbol mask: utf (τεχ)
-mkiv lua stats  > runtime: 4.758 seconds, 6 processed pages, 6 shipped pages, 1.261 pages/second
+mkiv lua stats  > control sequences: 45384 of 65536 + 100000
+mkiv lua stats  > lua properties: engine: lua, used memory: 68 MB (ctx: 66 MB), hash type: lua, hash chars: min(32,40), symbol mask: utf (τεχ)
+mkiv lua stats  > runtime: 4.087 seconds, 6 processed pages, 6 shipped pages, 1.468 pages/second
 

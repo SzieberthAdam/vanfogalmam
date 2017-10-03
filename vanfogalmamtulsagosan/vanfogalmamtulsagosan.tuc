@@ -2,7 +2,7 @@ local utilitydata = { }
 
 utilitydata.comment={
  ["escape"]="[===[ ... ]===]",
- ["file"]="szavaim",
+ ["file"]="vanfogalmamtulsagosan",
  ["format"]="cont-en",
  ["stamp"]="2017.05.15 21:48",
  ["version"]=1.3,
@@ -65,7 +65,7 @@ utilitydata.job.structure.collected={
          ["type"]="component",
         },
        },
-       ["name"]="szavaim",
+       ["name"]="vanfogalmamtulsagosan",
        ["type"]="product",
       },
      },
@@ -73,11 +73,11 @@ utilitydata.job.structure.collected={
      ["type"]="environment",
     },
    },
-   ["name"]="project_szavaim",
+   ["name"]="project_vanfogalmamtulsagosan",
    ["type"]="project",
   },
  },
- ["name"]="szavaim",
+ ["name"]="vanfogalmamtulsagosan",
  ["type"]="text",
 }
 
@@ -812,7 +812,7 @@ utilitydata.structures.lists.collected={
   },
   ["titledata"]={
    ["label"]="section",
-   ["title"]="Szavaim",
+   ["title"]="Van fogalmam túlságosan",
   },
  },
  {
