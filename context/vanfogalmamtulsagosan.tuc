@@ -742,7 +742,7 @@ utilitydata.structures.counters.collected={
  ["AxiomaSzam"]={
   { 0 },
  },
- ["SzoBekSzam"]={
+ ["CimBekSzam"]={
   { 0, 20, 8 },
  },
  ["chemical"]={
@@ -1951,7 +1951,7 @@ utilitydata.job.packed={
    ["increment"]="yes",
    ["kind"]="section",
    ["level"]=3,
-   ["name"]="Szo",
+   ["name"]="Cim",
   },
   { 0, 0, 1 },
   {

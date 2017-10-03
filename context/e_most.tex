@@ -50,34 +50,34 @@
 
 
 
-\definecounter[SzoBekSzam][way=bytext,prefix=no]
+\definecounter[CimBekSzam][way=bytext,prefix=no]
 \definecounter[AxiomaSzam][way=bytext,prefix=no]
 
-\def\Szotextcommand#1{\hbox{#1\enspace\bullet\enspace}}
+\def\Cimtextcommand#1{\hbox{#1\enspace\bullet\enspace}}
 
-\definehead[Szo][section]
+\definehead[Cim][section]
 % https://tex.stackexchange.com/a/375930/50554
-%\setuphead [Szo][%S
+%\setuphead [Cim][%S
 %  number=no,%
 %  %textdistance=0pt,%
 %  %commandbefore={\resetcounter[ParagraphNumber]\null},%
-%  %textcommand=\Szotextcommand,%
+%  %textcommand=\Cimtextcommand,%
 %  commandafter={\enspace\bullet\enspace},%
 %  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\hskip 0.25em plus 0.25em minus 0.125em\relax},
 %  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\kern 0.25em\relax},
 %  alternative=text,%
-%  insidesection={\resetcounter[SzoBekSzam]},%
+%  insidesection={\resetcounter[CimBekSzam]},%
 %  style=\bf,%
 %  textdistance=-\currentspaceskip%
 %]
 
-\definefloat[szo][szavak]
+\definefloat[szo][fogalmak]
 \setupfloats[szo][sidealign=line]
 
 % \define[2]\MyChapter
 %   {\framed[frame=on,location={inner,none,low},height=2\baselineskip,align=flushleft]{#2}}
 
-\setuphead[Szo][%S
+\setuphead[Cim][%S
   number=no,%
   %before=\relax,% ez kell, hogy ne legyen üres tér a szavakat megelőzően
   %indentnext=no,% ez sem képes megakadályozni, a sortörést, ha a programkódban ki van hagyva egy sor
@@ -85,19 +85,19 @@
   %command=\MyChapter,
   textdistance=0pt,%
   %commandbefore={\resetcounter[ParagraphNumber]\null},%
-  %textcommand=\Szotextcommand,%
+  %textcommand=\Cimtextcommand,%
   %commandafter={\enspace\bullet\enspace},%
   %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\hskip 0.25em plus 0.25em minus 0.125em\relax},
   %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\kern 0.25em\relax},
   %commandafter={\kern 0.5em\bullet\kern 0.5em\relax},
   %alternative=text,%
-  insidesection={\resetcounter[SzoBekSzam]},%
+  insidesection={\resetcounter[CimBekSzam]},%
   style=\bf,%
   %textdistance=-\currentspaceskip%
 ]
 
 %\defineenumeration
-%  [Szo]
+%  [Cim]
 %  [
 %    text=,%
 %    number=no,%
@@ -145,35 +145,35 @@
 
 
 
-%\unexpanded\def\startBek{\incrementcounter[SzoBekSzam]%
-%    \ifnum\rawcountervalue[SzoBekSzam]>1
-%    \ininner{\tfx\rawcountervalue[SzoBekSzam]}%
+%\unexpanded\def\startBek{\incrementcounter[CimBekSzam]%
+%    \ifnum\rawcountervalue[CimBekSzam]>1
+%    \ininner{\tfx\rawcountervalue[CimBekSzam]}%
 %    \ignorespaces
 %    \fi}
 
-\def\BekRefNev{\currentstructuretitle.\rawcountervalue[SzoBekSzam]}
+\def\BekRefNev{\currentstructuretitle.\rawcountervalue[CimBekSzam]}
 \def\BekRefKulcs#1{Bek:\currentstructuretitle:#1}
-%def\BekRefNevesitettKulcs{Bek:\currentstructuretitle:\getvariable{SzoBekSzam:ref}{ref}}
+%def\BekRefNevesitettKulcs{Bek:\currentstructuretitle:\getvariable{CimBekSzam:ref}{ref}}
 \define\startBek{\dosingleempty\doStartBek}%
 \def\doStartBek[#1]{\relax%
-    %\doifelse{\rawcountervalue[SzoBekSzam]}{0}{\relax}{\relax}% az elsőnek meg kellene szüntetnie az új bekezdést
-    \incrementcounter[SzoBekSzam]%
-    %\setevariables[SzoBekSzam:ref][ref=xxx]
-    \doifsomething{#1}{\setevariables[SzoBekSzam:ref][ref=#1]}%
-    \setevariables[SzoBekSzam:ref][ref={\rawcountervalue[SzoBekSzam]}]%
-    %\setvariables[SzoBekSzam:ref][%
+    %\doifelse{\rawcountervalue[CimBekSzam]}{0}{\relax}{\relax}% az elsőnek meg kellene szüntetnie az új bekezdést
+    \incrementcounter[CimBekSzam]%
+    %\setevariables[CimBekSzam:ref][ref=xxx]
+    \doifsomething{#1}{\setevariables[CimBekSzam:ref][ref=#1]}%
+    \setevariables[CimBekSzam:ref][ref={\rawcountervalue[CimBekSzam]}]%
+    %\setvariables[CimBekSzam:ref][%
     %  %ref=test%
-    %  %ref={\iffirstargument#1\else{\rawcountervalue[SzoBekSzam]}\fi}%
-    %  %ref={\doifsomethingelse{#1}{#1}{\rawcountervalue[SzoBekSzam]}}
+    %  %ref={\iffirstargument#1\else{\rawcountervalue[CimBekSzam]}\fi}%
+    %  %ref={\doifsomethingelse{#1}{#1}{\rawcountervalue[CimBekSzam]}}
     %  ref={}
-    %  %ref={\rawcountervalue[SzoBekSzam]}
+    %  %ref={\rawcountervalue[CimBekSzam]}
     %]%
-    \expanded{\textreference[\BekRefKulcs{\rawcountervalue[SzoBekSzam]}]{\BekRefNev}}%
+    \expanded{\textreference[\BekRefKulcs{\rawcountervalue[CimBekSzam]}]{\BekRefNev}}%
     \doifsomething{#1}{\expanded{\textreference[\BekRefKulcs{#1}]{\BekRefNev}}}%
-    %\ifnum\rawcountervalue[SzoBekSzam]>1%
+    %\ifnum\rawcountervalue[CimBekSzam]>1%
     \ininner{\tfx%
-      \rawcountervalue[SzoBekSzam]
-      %\BekRefKulcs{\rawcountervalue[SzoBekSzam]}
+      \rawcountervalue[CimBekSzam]
+      %\BekRefKulcs{\rawcountervalue[CimBekSzam]}
     }%
     \ignorespaces%
     %\fi
@@ -185,9 +185,9 @@
 \protect
 
 
-%\unexpanded\def\startAxioma{\incrementcounter[SzoBekSzam]%
-%    \ifnum\rawcountervalue[SzoBekSzam]>1
-%    \ininner{\tfx\rawcountervalue[SzoBekSzam]}%
+%\unexpanded\def\startAxioma{\incrementcounter[CimBekSzam]%
+%    \ifnum\rawcountervalue[CimBekSzam]>1
+%    \ininner{\tfx\rawcountervalue[CimBekSzam]}%
 %    \ignorespaces
 %    \fi}
 %
@@ -219,7 +219,7 @@
 %  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\hskip 0.25em plus 0.25em minus 0.125em\relax},
 %  %commandafter={\hskip 0.5em plus 0.25em minus 0.125em\relax\bullet\kern 0.25em\relax},
 %  alternative={text},%
-%  %insidesection={\resetcounter[SzoBekSzam]},%
+%  %insidesection={\resetcounter[CimBekSzam]},%
 %  numberstyle=\tfx,%
 %  hang=broad,%
 %  strut=no,
