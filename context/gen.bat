@@ -1,2 +1,2 @@
 @echo off
-context vanfogalmamtulsagosan.tex
+context vanfogalmam.tex

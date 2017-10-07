@@ -1,2 +1,2 @@
 @echo off
-move /y vanfogalmamtulsagosan.pdf ..
+move /y vanfogalmam.pdf ..
